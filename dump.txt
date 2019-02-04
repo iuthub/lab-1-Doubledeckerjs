@@ -1,0 +1,1485 @@
+13:00:44.843000 == Info:   Trying 3.0.150.28...
+13:00:44.843000 == Info: TCP_NODELAY set
+13:00:44.843000 == Info: Connected to www.hackerearth.com (3.0.150.28) port 443 (#0)
+13:00:45.140000 == Info: ALPN, offering h2
+13:00:45.140000 == Info: ALPN, offering http/1.1
+13:00:45.140000 == Info: Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+13:00:45.171000 == Info: successfully set certificate verify locations:
+13:00:45.171000 == Info:   CAfile: D:\curl\bin\curl-ca-bundle.crt
+  CApath: none
+13:00:45.171000 == Info: TLSv1.2 (OUT), TLS header, Certificate Status (22):
+13:00:45.171000 => Send SSL data, 5 bytes (0x5)
+0000: .....
+13:00:45.171000 == Info: TLSv1.2 (OUT), TLS handshake, Client hello (1):
+13:00:45.171000 => Send SSL data, 512 bytes (0x200)
+0000: ......=.....@L/.....U.D......l...d.c.#....0.,.(.$.............k.
+0040: j.i.h.9.8.7.6.........2...*.&.......=.5.../.+.'.#.............g.
+0080: @.?.>.3.2.1.0.........E.D.C.B.1.-.).%.......<./...A.............
+00c0: ............3.........www.hackerearth.com.......................
+0100: .................... .....................................3t....
+0140: .....h2.http/1.1................................................
+0180: ................................................................
+01c0: ................................................................
+13:00:45.531000 <= Recv SSL data, 5 bytes (0x5)
+0000: ....b
+13:00:45.531000 == Info: TLSv1.2 (IN), TLS handshake, Server hello (2):
+13:00:45.531000 <= Recv SSL data, 98 bytes (0x62)
+0000: ...^..%.3.W}.k..#e.sW5.......b_.....=. x.1...nl..._...g..94..z.
+0040: u.<. .../.......................h2
+13:00:45.531000 <= Recv SSL data, 5 bytes (0x5)
+0000: .....
+13:00:45.531000 == Info: TLSv1.2 (IN), TLS handshake, Certificate (11):
+13:00:45.531000 <= Recv SSL data, 5626 bytes (0x15fa)
+0000: .........#0...0..........*....X..n....b..0...*.H........0..1.0..
+0040: .U....GB1.0...U....Greater Manchester1.0...U....Salford1.0...U..
+0080: ..COMODO CA Limited1<0:..U...3COMODO RSA Organization Validation
+00c0:  Secure Server CA0...170929000000Z..201119235959Z0...1.0...U....
+0100: IN1.0...U....5600951.0...U....Karnataka1.0...U....Bangalore1-0+.
+0140: .U...$No.93, Koramangala Industrial Layout110/..U...(Ground Floo
+0180: r, Salarpuria Business Center1*0(..U...!HackerEarth Technologies
+01c0:  Pvt Ltd.1.0...U....PremiumSSL Wildcard1.0...U....*.hackerearth.
+0200: com0.."0...*.H.............0........... .^..3...I........K*l%.Ih
+0240: ......p.%\....q".....@.......X.....Q.x..|......Y....K...U.H.t.H.
+0280: *.~...4..../.j.......DE..wdA..a..?.8...D......"....,...-....jB..
+02c0: ..y...........<...wD...[.x..u..?.Z}...........Y...SV[.=(......Z
+0300: .*....F.!^_.....>4<F.....0.:.................0...0...U.#..0.....
+0340: +...O./.*HH*...B.$0...U............;..M.J-.j....m0...U..........
+0380: .0...U.......0.0...U.%..0...+.........+.......0P..U. .I0G0;..+..
+03c0: ...1.....0+0)..+.........https://secure.comodo.com/CPS0...g.....
+0400: 0Z..U...S0Q0O.M.K.Ihttp://crl.comodoca.com/COMODORSAOrganization
+0440: ValidationSecureServerCA.crl0....+........0}0U..+.....0..Ihttp:
+0480: //crt.comodoca.com/COMODORSAOrganizationValidationSecureServerCA
+04c0: .crt0$..+.....0...http://ocsp.comodoca.com0-..U...&0$..*.hackere
+0500: arth.com..hackerearth.com0...*.H...............q.2S..!]8q..).Y..
+0540: ...&$.=...i......x...!4....>.{...-..... W.6.KM$D.A...wH../...'.X
+0580: Z?.m.R....8/...P.......YsK....<.......LW8.Yx.pp...).a....,..l.1l
+05c0: ....h.'..@.J5...5..v.g...k..y.7{....[.d..F.[.6.A]...{..l..\..f
+0600: $.|l.............(.~S'.B.x.'..dr...]ds..F......:0..60...........
+0640: 0...*.H........0o1.0...U....SE1.0...U....AddTrust AB1&0$..U....A
+0680: ddTrust External TTP Network1"0 ..U....AddTrust External CA Root
+06c0: 0...000530104838Z..200530104838Z0o1.0...U....SE1.0...U....AddTru
+0700: st AB1&0$..U....AddTrust External TTP Network1"0 ..U....AddTrust
+0740:  External CA Root0.."0...*.H.............0...........3....-9.N[.
+0780: ..l....#.....3..)L}...J.........mPZ..).Z..Iz.......78-.>.A.pV..O
+07c0: ?.2.t...T.._.x..@<..a.^.....jP...N....q..q.P`....8......i&...L.O
+0800: #.:O......io..B.kD....mA_rZq.7.ye.Y..7../...r..8r...E.]*}.......
+0840: .D..+.C.%.a.ijX#...3.VuY..).F..+e..Bo...{...]S.4Z'........0..0..
+0880: .U.........z4.&...&T....$.T.0...U........0...U.......0....0....U
+08c0: .#...0.......z4.&...&T....$.T..s.q0o1.0...U....SE1.0...U....AddT
+0900: rust AB1&0$..U....AddTrust External TTP Network1"0 ..U....AddTru
+0940: st External CA Root...0...*.H.................%..#......A....y..
+0980: .[..#6e...w..AlG`.Q..2=...&......Z...xy.!..L...5...Q.....~N.p..9
+09c0: ...Q.-......Fu.$...B...p.g...5J..+z.QB.zc.....+.6.....c~y{...@.j
+0a00: ........B.Q.E...b!h. C<..|.$....s.?V.18..q...............1.DL..s
+0a40: Iv`......k...L.Z.y. ....c&.U.....Z{....N....x0..t0..\.......'f.V
+0a80: .I....p...."0...*.H........0o1.0...U....SE1.0...U....AddTrust AB
+0ac0: 1&0$..U....AddTrust External TTP Network1"0 ..U....AddTrust Exte
+0b00: rnal CA Root0...000530104838Z..200530104838Z0..1.0...U....GB1.0.
+0b40: ..U....Greater Manchester1.0...U....Salford1.0...U....COMODO CA 
+0b80: Limited1+0)..U..."COMODO RSA Certification Authority0.."0...*.H.
+0bc0: ............0..........T...V...$...Dgt.+7.}#p.q.S...*..K.V..pr.
+0c00: a.K...=...a.......>..>\...4z..k......zv.q.......l......~..../O
+0c40: ...gCr......k,.......~..n.....$.Ckb.U....l........li..xH0E....<
+0c80: E`.2.Q'.g....k.F.. ...e.H...N...F7.....HCgNr*.\.L.(.\"{......Q..
+0cc0: .FNm>.....|3WA<.Q...\.,c..W.?..]...E...Z$...V=.o..IX........7...
+0d00: ..:..CB...........`..(V......q....=...H.<...."L....V;....[..."R.
+0d40: ..i..Le...-pt...g.)iR....PjUF...(ap....,!.G.(..Ev...'.....P.k.L
+0d80: .q0........@...B..3:.\.A..c..qk+....1\:jG..yY. ...j..r.WJ.K....
+0dc0: .LA...=^(.....Q..G..S........0..0...U.#..0......z4.&...&T....$.T
+0e00: .0...U........~.=...<....8...22.0...U...........0...U.......0...
+0e40: .0...U. ..0.0...U. .0D..U...=0;09.7.5.3http://crl.usertrust.com/
+0e80: AddTrustExternalCARoot.crl05..+........)0'0%..+.....0...http://o
+0ec0: csp.usertrust.com0...*.H.............d..._......)W..Z...>.v.n.Rp
+0f00: ..<.M.tj...%...*]L....m.T.u..'.].y7@.w.....;.....4.~+.y..WE..(..
+0f40: ..P.....Wi}..R.s......nf.....-...Y.L...qL|G.;.....l.>\.........
+0f80: HM.....s...{#....MU.zaE..h.^@k#.yz...k..oF.{.=K....YZ.A$....`XG.
+0fc0: .nF...._......@...9.............;o.8o...0...0..........6.^....~
+1000: ..sk.<.0...*.H........0..1.0...U....GB1.0...U....Greater Manches
+1040: ter1.0...U....Salford1.0...U....COMODO CA Limited1+0)..U..."COMO
+1080: DO RSA Certification Authority0...140212000000Z..290211235959Z0.
+10c0: .1.0...U....GB1.0...U....Greater Manchester1.0...U....Salford1.0
+1100: ...U....COMODO CA Limited1<0:..U...3COMODO RSA Organization Vali
+1140: dation Secure Server CA0.."0...*.H.............0.............ADW
+1180: .0D..<D...n..._..!..Y......2<..c.>'6...8f...A.K..._.s<.. .O|2...
+11c0: .HeJ...V1m...2....}....O..XV..E.........R7Q.O....:...F.e??.G./..
+1200: B^-~.Zh.]K..5!....I..c`..!H..0eF..5.B%~..NK.@.z.h\o...x.!.=...E.
+1240: #..u.....El^..2..XxB(.:.v.....ip..K.y..v....|.;.Qlj 9..i........
+1280: e0..a0...U.#..0.....~.=...<....8...22.0...U........+...O./.*HH*.
+12c0: ..B.$0...U...........0...U.......0.......0...U.%..0...+.........
+1300: +.......0...U. ..0.0...U. .0...g.....0L..U...E0C0A.?.=.;http://c
+1340: rl.comodoca.com/COMODORSACertificationAuthority.crl0q..+........
+1380: e0c0;..+.....0../http://crt.comodoca.com/COMODORSAAddTrustCA.crt
+13c0: 0$..+.....0...http://ocsp.comodoca.com0...*.H.............i.6h..
+1400: ;e..|...q;.a.?.d.I.......g..[..B.....m.2.Z")b...YV'6."...G.Q.Y{)
+1440: J.H5|..f.'%;.z2uJ...k..S.....#...,....G....iv.8.4...~.kX.*9..D.J
+1480: V.h..|i~.}TK....gf.W^.*..-..@.f...T......G..a...#H*.%y..A.....W+
+14c0: .......b.Jqw......k.).2..N..*....X.B6_....{........\.. ...r.....
+1500: .l.2..vIs.?'.<..-.........i...........D....."_.0....ydV...O.0.
+1540: n.QK........?....F..Cob-.Q.E.........[..7J......&",..>........JH
+1580: =...$rK.{D..6..v#X..l.].am9v...=k......F..v....\O....M........y
+15c0: \!.E...9lm(.%.......o^....fwr/..@,R.`...p...y...-.\xo....U
+13:00:45.546000 <= Recv SSL data, 5 bytes (0x5)
+0000: ....M
+13:00:45.546000 == Info: TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+13:00:45.546000 <= Recv SSL data, 333 bytes (0x14d)
+0000: ...I...A.:.......~..e|.L.i[.'.^3.B.]0../j..~.~.w....(...V...Nb.
+0040: ..%.4z../.....{...]...]u.mK.i...p1.U>.z....:..6..+X....._.......
+0080: .B..\...">#..n..Q0........D.y..!..?..*.s....P..........u!.Q.....
+00c0: #.TC..5.0..q.'...k.@....^..*......b....~#*.....b?......t+...R[..
+0100: <b.9..Y0.D...Hy...&F.... ...o..GK..9.E..._..E..W..)....t...f....
+0140: ...\..RD...b9
+13:00:45.546000 <= Recv SSL data, 5 bytes (0x5)
+0000: .....
+13:00:45.546000 == Info: TLSv1.2 (IN), TLS handshake, Server finished (14):
+13:00:45.546000 <= Recv SSL data, 4 bytes (0x4)
+0000: ....
+13:00:45.562000 => Send SSL data, 5 bytes (0x5)
+0000: ....F
+13:00:45.562000 == Info: TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+13:00:45.562000 => Send SSL data, 70 bytes (0x46)
+0000: ...BA...RI.......{+M.r&F....r..7.....`....`......M_&Z....<...|.
+0040: B.....
+13:00:45.562000 => Send SSL data, 5 bytes (0x5)
+0000: .....
+13:00:45.562000 == Info: TLSv1.2 (OUT), TLS change cipher, Client hello (1):
+13:00:45.562000 => Send SSL data, 1 bytes (0x1)
+0000: .
+13:00:45.562000 => Send SSL data, 5 bytes (0x5)
+0000: ....(
+13:00:45.562000 == Info: TLSv1.2 (OUT), TLS handshake, Finished (20):
+13:00:45.562000 => Send SSL data, 16 bytes (0x10)
+0000: .....i..Y..hi...
+13:00:46.234000 <= Recv SSL data, 5 bytes (0x5)
+0000: .....
+13:00:46.234000 == Info: TLSv1.2 (IN), TLS change cipher, Client hello (1):
+13:00:46.234000 <= Recv SSL data, 1 bytes (0x1)
+0000: .
+13:00:46.234000 <= Recv SSL data, 5 bytes (0x5)
+0000: ....(
+13:00:46.234000 == Info: TLSv1.2 (IN), TLS handshake, Finished (20):
+13:00:46.234000 <= Recv SSL data, 16 bytes (0x10)
+0000: ......!K9m..._..
+13:00:46.234000 == Info: SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256
+13:00:46.234000 == Info: ALPN, server accepted to use h2
+13:00:46.234000 == Info: Server certificate:
+13:00:46.234000 == Info:  subject: C=IN; postalCode=560095; ST=Karnataka; L=Bangalore; street=No.93, Koramangala Industrial Layout; street=Ground Floor, Salarpuria Business Center; O=HackerEarth Technologies Pvt Ltd.; OU=PremiumSSL Wildcard; CN=*.hackerearth.com
+13:00:46.234000 == Info:  start date: Sep 29 00:00:00 2017 GMT
+13:00:46.234000 == Info:  expire date: Nov 19 23:59:59 2020 GMT
+13:00:46.234000 == Info:  subjectAltName: host "www.hackerearth.com" matched cert's "*.hackerearth.com"
+13:00:46.234000 == Info:  issuer: C=GB; ST=Greater Manchester; L=Salford; O=COMODO CA Limited; CN=COMODO RSA Organization Validation Secure Server CA
+13:00:46.234000 == Info:  SSL certificate verify ok.
+13:00:46.250000 == Info: Using HTTP2, server supports multi-use
+13:00:46.250000 == Info: Connection state changed (HTTP/2 confirmed)
+13:00:46.250000 == Info: Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0
+13:00:46.265000 => Send SSL data, 5 bytes (0x5)
+0000: ....0
+13:00:46.265000 => Send SSL data, 5 bytes (0x5)
+0000: ....3
+13:00:46.265000 => Send SSL data, 5 bytes (0x5)
+0000: ....%
+13:00:46.265000 == Info: Using Stream ID: 1 (easy handle 0x46f970)
+13:00:46.265000 => Send SSL data, 5 bytes (0x5)
+0000: ....C
+13:00:46.265000 => Send header, 81 bytes (0x51)
+0000: GET / HTTP/2
+000e: Host: www.hackerearth.com
+0029: User-Agent: curl/7.60.0
+0042: Accept: */*
+004f: 
+13:00:46.265000 <= Recv SSL data, 5 bytes (0x5)
+0000: ....@
+13:00:46.265000 == Info: Connection state changed (MAX_CONCURRENT_STREAMS == 128)!
+13:00:46.265000 => Send SSL data, 5 bytes (0x5)
+0000: ....!
+13:00:46.546000 <= Recv SSL data, 5 bytes (0x5)
+0000: ....!
+13:00:46.625000 <= Recv SSL data, 5 bytes (0x5)
+0000: .....
+13:00:46.640000 <= Recv header, 13 bytes (0xd)
+0000: HTTP/2 200 
+13:00:46.640000 <= Recv header, 37 bytes (0x25)
+0000: date: Thu, 31 Jan 2019 07:51:34 GMT
+13:00:46.640000 <= Recv header, 40 bytes (0x28)
+0000: content-type: text/html; charset=utf-8
+13:00:46.640000 <= Recv header, 15 bytes (0xf)
+0000: server: nginx
+13:00:46.640000 <= Recv header, 48 bytes (0x30)
+0000: vary: Accept-Encoding, Cookie, Accept-Language
+13:00:46.640000 <= Recv header, 29 bytes (0x1d)
+0000: x-frame-options: SAMEORIGIN
+13:00:46.640000 <= Recv header, 19 bytes (0x13)
+0000: x-processtime: 56
+13:00:46.640000 <= Recv header, 25 bytes (0x19)
+0000: content-language: en-us
+13:00:46.640000 <= Recv header, 127 bytes (0x7f)
+0000: set-cookie: HE_UTS_ID_LP="/"; Domain=.hackerearth.com; expires=F
+0040: ri, 01-Feb-2019 07:51:34 GMT; httponly; Max-Age=86400; Path=/
+13:00:46.640000 <= Recv header, 120 bytes (0x78)
+0000: set-cookie: ulang="ZW4tdXM="; Domain=.hackerearth.com; expires=F
+0040: ri, 31-Jan-2020 07:51:34 GMT; Max-Age=31536000; Path=/
+13:00:46.640000 <= Recv header, 118 bytes (0x76)
+0000: set-cookie: piratesofthecaribbean=; expires=Thu, 14-Feb-2019 07:
+0040: 51:34 GMT; httponly; Max-Age=1209600; Path=/; secure
+13:00:46.640000 <= Recv header, 192 bytes (0xc0)
+0000: set-cookie: HE_UTS_ID_CL=c58d54b8b74a40f09fff51cf599b2a69720462c
+0040: ace27444cb7a99ec378c0125c; Domain=.hackerearth.com; expires=Wed,
+0080:  26-Jan-2039 07:51:34 GMT; httponly; Max-Age=630720000; Path=/
+13:00:46.640000 <= Recv header, 120 bytes (0x78)
+0000: set-cookie: plang="ZW4tdXM="; Domain=.hackerearth.com; expires=F
+0040: ri, 31-Jan-2020 07:51:34 GMT; Max-Age=31536000; Path=/
+13:00:46.640000 <= Recv header, 203 bytes (0xcb)
+0000: set-cookie: lordoftherings="a5dr3g48ag2dg8s2b8r57gkil6ioip74:415
+0040: 0f6e6fc70002085422be890400133"; Domain=.hackerearth.com; expires
+0080: =Thu, 14-Feb-2019 07:51:34 GMT; httponly; Max-Age=1209600; Path=
+00c0: /; secure
+13:00:46.640000 <= Recv header, 184 bytes (0xb8)
+0000: set-cookie: HE_UTS_ID=d5fa1c3f66d6434aabaf2791be9dd34951042b079d
+0040: 7e4644aa67abf59450832d; Domain=.hackerearth.com; expires=Thu, 31
+0080: -Jan-2019 08:21:34 GMT; httponly; Max-Age=1800; Path=/
+13:00:46.640000 <= Recv header, 153 bytes (0x99)
+0000: set-cookie: csrftoken=QWvzzObBE1l40S5HiF81T1GY2JLLUgq4TkTLMyJFFq
+0040: to9TNBfF0viiHRwxd36noO; expires=Thu, 30-Jan-2020 07:51:34 GMT; M
+0080: ax-Age=31449600; Path=/
+13:00:46.640000 <= Recv header, 2 bytes (0x2)
+0000: 
+13:00:46.640000 <= Recv data, 2890 bytes (0xb4a)
+0000: ..<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.
+0040: w3.org/TR/xhtml11/DTD/xhtml11.dtd">.<html xmlns="http://www.w3.o
+0080: rg/1999/xhtml" xml:lang="en">.    <head>.        <meta name="the
+00c0: me-color" content="#323754">.        <meta http-equiv="Content-T
+0100: ype" content="text/html; charset=utf-8"><script type="text/javas
+0140: cript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){fun
+0180: ction r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.expo
+01c0: rts,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}re
+0200: turn n[t].exports}if("function"==typeof __nr_require)return __nr
+0240: _require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[functi
+0280: on(e,n,t){function r(){}function o(e,n,t){return function(){retu
+02c0: rn i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:th
+0300: is}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e(
+0340: "loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic
+0380: =s);var p=["setPageViewName","setCustomAttribute","setErrorHandl
+03c0: er","finished","addToTrace","inlineHit","addRelease"],d="api-",l
+0400: =d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageActi
+0440: on=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName"
+0480: ,!0),n.exports=newrelic,s.interaction=function(){return(new r).g
+04c0: et()};var m=r.prototype={createTracer:function(e,n){var t={},r=t
+0500: his,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),
+0540: function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)
+0580: try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err
+05c0: ",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}
+0600: }};a("actionText,setName,setAttribute,save,ignore,onEnd,getConte
+0640: xt,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noti
+0680: ceError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("er
+06c0: r",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if
+0700: (!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for
+0740: (var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==
+0780: t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Saf
+07c0: ari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match
+0800: (a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o=
+0840: "Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[f
+0880: unction(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.ca
+08c0: ll(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.h
+0900: asOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n
+0940: ,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-
+0980: 1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.export
+09c0: s=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeo
+0a00: f window.performance&&window.performance.timing&&"undefined"!=ty
+0a40: peof window.performance.timing.navigationStart}},{}],ee:[functio
+0a80: n(e,n,t){function r(){}function o(e){function n(e){return e&&e i
+0ac0: nstanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||
+0b00: i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c]
+0b40: .apply(a,r
+13:00:46.640000 <= Recv SSL data, 5 bytes (0x5)
+0000: ... U
+13:00:46.640000 <= Recv data, 8235 bytes (0x202b)
+0000: );var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h
+0040: [e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r
+0080: <t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]|
+00c0: |[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,fun
+0100: ction(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y=
+0140: {},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g
+0180: ,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}fun
+01c0: ction i(){return new r}function a(){(s.api||s.feature)&&(d.abort
+0200: ed=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},
+0240: p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){funct
+0280: ion r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defi
+02c0: neProperty&&Object.keys)try{return Object.defineProperty(e,n,{va
+0300: lue:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}va
+0340: r o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[fun
+0380: ction(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}v
+03c0: ar o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(
+0400: e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"fun
+0440: ction"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1
+0480: ,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){f
+04c0: unction r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTa
+0500: gName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&
+0540: &e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e
+0580: [n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.cr
+05c0: eateElement("script");t.src="https://"+e.agent,n.parentNode.inse
+0600: rtBefore(t,n)}}function o(){"complete"===l.readyState&&i()}funct
+0640: ion i(){f("mark",["domContent",a()+x.offset],null,"api")}functio
+0680: n a(){return O.exists&&performance.now?Math.round(performance.no
+06c0: w()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Da
+0700: te).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d
+0740: .document,m="addEventListener",v="attachEvent",g=d.XMLHttpReques
+0780: t,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:c
+07c0: learTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.Mut
+0800: ationObserver};var h=""+location,y={beacon:"bam.nr-data.net",err
+0840: orBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1118.
+0880: min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.ex
+08c0: ports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAg
+0900: ent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1
+0940: )):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["fi
+0980: rstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</sc
+09c0: ript><script type="text/javascript">window.NREUM||(NREUM={});NRE
+0a00: UM.info={"beacon":"bam.nr-data.net","queueTime":0,"licenseKey":"
+0a40: 9b2cefefd1","agent":"","transactionName":"MlwDZxBYVxUHWkNcVwsWJ0
+0a80: YMWk0PCVcYXVkGUgRBB1hLEg4XQVxdEkpbWgxdXB5U","applicationID":"335
+0ac0: 78042","errorBeacon":"bam.nr-data.net","applicationTime":56}</sc
+0b00: ript>.        <meta name="description" content="  HackerEarth is
+0b40:  a global hub of 2M+ developers. We also help companies fast-tra
+0b80: ck their growth through our best-in-class technical recruitment 
+0bc0: software and innovation management platform." >.        <link re
+0c00: l="canonical" href="https://www.hackerearth.com/" />.        <me
+0c40: ta name="msvalidate.01" content="1BF418E510B5A17A2D71685C571BF4E
+0c80: B" />..        .        <script>.          (function() {.       
+0cc0:        if (window.BOOMR && window.BOOMR.version) {.             
+0d00:      return;.              }.              var dom, doc, where, 
+0d40: iframe = document.createElement("iframe"),.                  win
+0d80:  = window;..              function boomerangSaveLoadTime(e) {.  
+0dc0:                 win.BOOMR_onload = (e && e.timeStamp) || new Dat
+0e00: e().getTime();.              }.              if (win.addEventLis
+0e40: tener) {.                  win.addEventListener("load", boomeran
+0e80: gSaveLoadTime, false);.              } else if (win.attachEvent)
+0ec0:  {.                  win.attachEvent("onload", boomerangSaveLoad
+0f00: Time);.              }..              iframe.src = "javascript:f
+0f40: alse";.              iframe.title = "";.              iframe.rol
+0f80: e = "presentation";.              (iframe.frameElement || iframe
+0fc0: ).style.cssText = "width:0;height:0;border:0;display: none;";.  
+1000:             where = document.getElementsByTagName("script")[0];.
+1040:               where.parentNode.insertBefore(iframe, where);..   
+1080:            try {.                  doc = iframe.contentWindow.do
+10c0: cument;.              } catch (e) {.                  dom = docu
+1100: ment.domain;.                  iframe.src = "javascript:var d=do
+1140: cument.open();d.domain='" + dom + "';void(0);";.                
+1180:   doc = iframe.contentWindow.document;.              }.         
+11c0:      doc.open()._l = function() {.                  var js = thi
+1200: s.createElement("script");.                  if (dom) this.domai
+1240: n = dom;.                  js.id = "boomr-if-as";.              
+1280:     js.src = "https://s.go-mpulse.net/boomerang/" +.            
+12c0:           "QKZWA-3BVYP-7W6XK-6HKWZ-EFFZ4";.                  BOO
+1300: MR_lstart = new Date().getTime();.                  this.body.ap
+1340: pendChild(js);.              };.              doc.write('<body o
+1380: nload="document._l();">');.              doc.close();.          
+13c0: })();.        </script>.        ...        .<meta name="google-s
+1400: ite-verification" content="ozqyeStBcz4eehbY9Ohb_IUQcA4y8BKzzDCT-
+1440: H1QPPc" />...        .        .        <!-- google analytics sta
+1480: rt -->.        <script>.            (function(i,s,o,g,r,a,m){i['
+14c0: GoogleAnalyticsObject']=r;i[r]=i[r]||function(){.            (i[
+1500: r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.create
+1540: Element(o),.            m=s.getElementsByTagName(o)[0];a.async=1
+1580: ;a.src=g;m.parentNode.insertBefore(a,m).            })(window,do
+15c0: cument,'script','//www.google-analytics.com/analytics.js','ga');
+1600: ..            ga('create', 'UA-34729975-1', 'auto');.           
+1640:  ga('require', 'displayfeatures');.            .            ga('
+1680: send', 'pageview');.        </script>.        <!-- google analyt
+16c0: ics end -->.        .        ..        .        .        <!-- Go
+1700: ogle Tag Manager -->.        <script>.            (function(w,d,
+1740: s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':.            new Dat
+1780: e().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0
+17c0: ],.            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:''
+1800: ;j.async=true;j.src=.            'https://www.googletagmanager.c
+1840: om/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);.            
+1880: })(window,document,'script','dataLayer','GTM-PBHB3B9');.        
+18c0: </script>.        <!-- End Google Tag Manager -->.        .     
+1900:    ..        <title> HackerEarth | Hackathons, Innovation Manage
+1940: ment, and Technical Recruitment software  </title>..        .<me
+1980: ta name="viewport" content="width=device-width,initial-scale=1,m
+19c0: aximum-scale=1,user-scalable=no">.<!-- Facebook tags -->.<meta p
+1a00: roperty="og:title" content="HackerEarth - Programming challenges
+1a40:  and Developer jobs"/>.<meta property="og:description" content="
+1a80: HackerEarth is the network of top developers across the world. T
+1ac0: hey connect to start-ups, tech companies, organizations and disc
+1b00: over the best developer jobs. They participate in programming ch
+1b40: allenges and compete against other top developers."/>.<meta prop
+1b80: erty="og:image" content="https://static-fastly.hackerearth.com/s
+1bc0: tatic/hackerearth/images/logo/HE_cover.jpg" />.<meta property="o
+1c00: g:url" content="https://www.hackerearth.com/"/>.<meta property="
+1c40: og:site_name" content="HackerEarth"/>.<meta property="og:type" c
+1c80: ontent="website"/>.<!-- end Facbook tags -->..<!-- Twitter tags 
+1cc0: -->.<meta name="twitter:card" content="summary"/>.<meta name="tw
+1d00: itter:site" content="@HackerEarth"/>.<meta name="twitter:url" co
+1d40: ntent="https://www.hackerearth.com/"/>.<meta name="twitter:title
+1d80: " content="HackerEarth - Programming challenges and Developer jo
+1dc0: bs"/>.<!-- end Twitter tags -->...        .        <link rel="sh
+1e00: ortcut icon" href="https://static-fastly.hackerearth.com/static/
+1e40: hackerearth/images/logo/HE_identity.png" type="image/x-icon">.  
+1e80:       ..        <link rel="stylesheet" href="https://static-fast
+1ec0: ly.hackerearth.com/static/base/base_common_combined.css?vrsn=44"
+1f00: />.        <link rel="stylesheet" href="https://static-fastly.ha
+1f40: ckerearth.com/static/js/tooltip/tipTip.css?vrsn=0"/>.        <li
+1f80: nk rel="stylesheet" href="https://static-fastly.hackerearth.com/
+1fc0: static/offline/offline-theme-slide.css?vrsn=0"/>.        <link r
+2000: el="stylesheet" href="https://static-fastly
+13:00:46.875000 <= Recv SSL data, 5 bytes (0x5)
+0000: ....q
+13:00:46.906000 <= Recv data, 2896 bytes (0xb50)
+0000: .hackerearth.com/static/css/font-awesome-4.7.0/css/font-awesome.
+0040: min.css?vrsn=0"/>.        <link rel="stylesheet" href="https://s
+0080: tatic-fastly.hackerearth.com/static/css/opensans/opensans.css?vr
+00c0: sn=0"/>.        <link rel="stylesheet" href="https://static-fast
+0100: ly.hackerearth.com/static/css/unicons.css?vrsn=1"/>..        ...
+0140: .        ..        <!-- Make the static variable available for a
+0180: ll js files -->.        <script>.            var STATIC_URL = "h
+01c0: ttps://static-fastly.hackerearth.com/static/";.        </script>
+0200: ..        <!-- Store CSRF_COOKIE -->.        <script>.          
+0240:   var CSRF_COOKIE_USED = "True";.            var CSRF_COOKIE = "
+0280: QWvzzObBE1l40S5HiF81T1GY2JLLUgq4TkTLMyJFFqto9TNBfF0viiHRwxd36noO
+02c0: ";.        </script>..        .<link rel="stylesheet" href="http
+0300: s://static-fastly.hackerearth.com/static/hackerearth/homepage.cs
+0340: s?vrsn=18"/>...    </head>..    <body >.        .<link rel="styl
+0380: esheet" href="https://static-fastly.hackerearth.com/static/base/
+03c0: notification_toast.css?vrsn=2"/>.<div class="notification-toast-
+0400: container notification-top-center regular">.    <div class="noti
+0440: fication-errors">.        <p id="notification-auth-error" class=
+0480: "error-item hidden no-margin">.            <span class="fa fa-ti
+04c0: mes less-margin-right"></span>Ensure that you are logged in and 
+0500: have the required permissions to access the test..        </p>. 
+0540:        <p id="notification-server-error" class="error-item hidde
+0580: n no-margin">.            <span class="fa fa-times less-margin-r
+05c0: ight"></span>A server error has occurred. Please refresh the pag
+0600: e or try after some time..        </p>.        <p id="notificati
+0640: on-error" class="error-item hidden no-margin">.            <span
+0680:  class="fa fa-times less-margin-right"></span>An error has occur
+06c0: red. Please refresh the page or try after some time..        </p
+0700: >.        <p id="notification-custom-error" class="error-item hi
+0740: dden no-margin"></p>.        .    </div>.</div>.<script type="te
+0780: xt/javascript" src="https://static-fastly.hackerearth.com/static
+07c0: /base/notification-toast.js?vrsn=4" crossorigin="anonymous" defe
+0800: r></script>.        .        .        <!-- Google Tag Manager (n
+0840: oscript) -->.        <noscript>.            <iframe src="https:/
+0880: /www.googletagmanager.com/ns.html?id=GTM-PBHB3B9".            he
+08c0: ight="0" width="0" style="display:none;visibility:hidden"></ifra
+0900: me>.        </noscript>.        <!-- End Google Tag Manager (nos
+0940: cript) -->.        .        ..        <!-- Placeholder for any a
+0980: lert message on the site -->.        .        <div id="alert-mes
+09c0: sage-holder">.            ..            <!-- put a dummy message
+0a00:  box so that it can be used when cloning.                 and ad
+0a40: ding more -->.            <div class="alert-message hidden">.   
+0a80:              <div class="message float-left"></div>.            
+0ac0:     <div class="cross-holder float-left"><span class="small-cros
+0b00: s sprites"></span></div>.                <div class="clear"></di
+0b40: v>.            <
+13:00:46.906000 <= Recv SSL data, 5 bytes (0x5)
+0000: .....
+13:00:46.906000 <= Recv data, 1440 bytes (0x5a0)
+0000: /div>.        </div> <!-- end alert-message-holder -->..        
+0040: <!-- Placeholder for any error message on the site -->.        .
+0080:         <div id="error-message-holder">.            ..          
+00c0:   <!-- put a dummy message box so that it can be used when cloni
+0100: ng.                 and adding more -->.            <div class="
+0140: error-message hidden">.                <div class="message float
+0180: -left"></div>.                <div class="cross-holder float-lef
+01c0: t"><span class="small-cross sprites"></span></div>.             
+0200:    <div class="clear"></div>.            </div>.        </div> <
+0240: !-- end error-message-holder -->.        .        ..        .   
+0280:  <div id="top-prompt-container" class="hidden prompt-container">
+02c0: </div>.    <div id="right-prompt-container" class="hidden prompt
+0300: -container"></div>.    <div id="center-modal-prompt-container" c
+0340: lass="hidden prompt-container"></div>.    ...    .    .    ..   
+0380:  ..    <div id="comment-share-modal" class="modal-window small-m
+03c0: odal">.        <div class="modal-header">.            Comment pe
+0400: rmalink.        </div>.        <div class="modal-content">.     
+0440:        <div class="comment-share-wrapper align-center">.        
+0480:         <textarea class="comment-share-text" type="textbox" rows
+04c0: ="4" readonly="readonly" onclick="this.select();"></textarea>.  
+0500:           </div>.        </div>.    </div>..    .    ..    .    
+0540: <!-- live events widget -->.    <div id="live-events-trigger-dat
+0580: a"></div>.    ..    <!-- This is
+13:00:46.906000 <= Recv SSL data, 5 bytes (0x5)
+0000: .....
+13:00:46.906000 <= Recv data, 1448 bytes (0x5a8)
+0000:  the center page which has a fixed width of 1100px -->.    .<div
+0040:  class="responsive-page homepage">.    <section class="first-sec
+0080: tion">.        <header class="navbar-header header-top">.       
+00c0:      <nav class="homepage-nav">.                <img src="https:
+0100: //static-fastly.hackerearth.com/static/hackerearth/images/logo/H
+0140: E_logo.svg" class="float-left he-logo">.                <ul clas
+0180: s="homepage-nav-links float-right">.                    <li clas
+01c0: s="menu-content"><a class="blue-hover" href="/challenges/">For D
+0200: evelopers</a></li>.                    <li class="menu-content h
+0240: omepage-dropdown">.                        For Businesses <i cla
+0280: ss="fa fa-caret-down" aria-hidden="true"></i>.                  
+02c0:       <ul class="homepage-dropdown-content">.                   
+0300:          <a href="/sprint/?source=homepage">.                   
+0340:              <li>.                                    <p class="
+0380: no-margin blue-text">Innovation Management</p>.                 
+03c0:                    <p class="no-margin">- Drive innovation & bus
+0400: iness growth in your organization</p>.                          
+0440:       </li>.                            </a>.                   
+0480:          <a href="/recruit/?source=homepage">.                  
+04c0:               <li>.                                    <p class=
+0500: "no-margin blue-text">Technical Recruitment</p>.                
+0540:                     <p class="no-margin">- Hire the best talent 
+0580: for your technology team</p>.           
+13:00:46.906000 <= Recv SSL data, 5 bytes (0x5)
+0000: ....q
+13:00:46.906000 <= Recv data, 2896 bytes (0xb50)
+0000:                      </li>.                            </a>.    
+0040:                     </ul>.                    </li>.            
+0080:         .                    <li class="nav-login"><a target="lo
+00c0: gin-modal" class="blue-hover show-modal">Login</a></li>.        
+0100:             <li class="nav-signup"><a target="login-modal" class
+0140: ="show-modal show-signup-in-modal button btn-blue">Sign up</a></
+0180: li>.                    .                </ul>.                <
+01c0: div class="clear"></div>.            </nav>.        </header>.  
+0200:       <div class="content-container">.            <div class="le
+0240: ft-image float-right">.                <img src="https://static-
+0280: fastly.hackerearth.com/static/hackerearth/images/homepage_2/min/
+02c0: homepageGraphics-1.png" class="left-image-0">.                <i
+0300: mg src="https://static-fastly.hackerearth.com/static/hackerearth
+0340: /images/homepage_2/min/homepageGraphics-2.png" class="left-image
+0380: -1">.                <img src="https://static-fastly.hackerearth
+03c0: .com/static/hackerearth/images/homepage_2/min/homepageGraphics-3
+0400: .png" class="left-image-2">.                <pre class="dynamic-
+0440: content dark"></pre>.            </div>.            <div class="
+0480: right-content">.                <div class="">.                 
+04c0:    <span class="tag-text dark">Be a better</span>.              
+0500:       <h1>Programmer</h1>.                </div>.               
+0540:  <h2 class="dark">Code. Build. Hack.</h2>.                <img s
+0580: rc="https://static-fastly.hackerearth.com/static/hackerearth/ima
+05c0: ges/homepage_2/min/homepageGraphics-1.png" class="mobile-image">
+0600: .                <div class="social-login-buttons">.            
+0640:         .                    .                    <a id="social-
+0680: login-button-fb" class="social-login-button social-login-button-
+06c0: fb show-popup hidden" minimal="true" url='/zeus/facebook/login/?
+0700: display=popup&next=%2Fsocial-login-complete%2F%3Forigin_protocol
+0740: %3Dhttps%26origin_host%3Dwww.hackerearth.com%26redirect%3D/users
+0780: /basic-details/&update=facebook&source=homepage&purpose=signup'>
+07c0: .                    .                        <i class="fa fa-fa
+0800: cebook"></i>.                        <span>Start with Facebook</
+0840: span>.                    </a>.                    <a class="soc
+0880: ial-login-button social-login-button-fb show-modal" target="gdpr
+08c0: -modal" >.                        <i class="fa fa-facebook"></i>
+0900: .                        <span>Log in with Facebook</span>.     
+0940:                </a>.                    .                    <a 
+0980: id="social-login-button-g" class="social-login-button social-log
+09c0: in-button-g show-popup hidden" minimal="true" url='/zeus/google/
+0a00: login/?next=%2Fsocial-login-complete%2F%3Forigin_protocol%3Dhttp
+0a40: s%26origin_host%3Dwww.hackerearth.com%26redirect%3D/users/basic-
+0a80: details/&update=google&source=homepage&purpose=signup'>.        
+0ac0:             .                        <i class="fa fa-google-plus
+0b00: "></i>.                        <span>Start with Google</span>.  
+0b40:                 
+13:00:46.906000 <= Recv SSL data, 5 bytes (0x5)
+0000: .....
+13:00:46.906000 <= Recv data, 1448 bytes (0x5a8)
+0000:   </a>.                    <a class="social-login-button social-
+0040: login-button-g show-modal" target="gdpr-modal" >.               
+0080:          <span class="g-img">.                            <img s
+00c0: rc="https://static-fastly.hackerearth.com/static/hackerearth/ima
+0100: ges/google_logo.png" alt="Google" >.                        </sp
+0140: an>.                        <span>Sign in with Google</span>.   
+0180:                  </a>.                    .                </div
+01c0: ><!-- end social-login-buttons -->.                <div class="h
+0200: idden email-signup">.                    <form id="track-signup"
+0240:  class="ajax-form" method="POST" ajax="/AJAX/hackerearth/signup/
+0280: ?source=homepage&next=/users/basic-details/">.                  
+02c0:       <input type='hidden' name='csrfmiddlewaretoken' value='zJ9
+0300: yVPPvbc8sNdMODNxldPoX7hBRRFG6C7xK8znzcBgMWeuIANpPC6pQB5393MEQ' /
+0340: >.                        ....    .        ..        .        <d
+0380: iv class="wrapper small-wrapper float-left">.            <input 
+03c0: id="id_first_name" maxlength="30" name="first_name" placeholder=
+0400: "First Name" type="text" required />.        </div>..        <di
+0440: v class="wrapper small-wrapper float-right">.            <input 
+0480: id="id_last_name" maxlength="30" name="last_name" placeholder="L
+04c0: ast Name" type="text" />.        </div>..        <div class="cle
+0500: ar"></div>..        <div class="wrapper small-wrapper">.        
+0540:     <input id="id_email" maxlength="75" name="email" placeholder
+0580: ="Email" type="text" required />.       
+13:00:46.906000 <= Recv SSL data, 5 bytes (0x5)
+0000: .....
+13:00:46.921000 <= Recv data, 5784 bytes (0x1698)
+0000:  </div>.        <div class="wrapper small-wrapper">.            
+0040: <input id="id_password" name="password" placeholder="Password" t
+0080: ype="password" required />.        </div>.    ..    <div class="
+00c0: align-center medium-margin">.        <button id="signup-start-no
+0100: w" class="button btn-blue fontawesome btn-largest weight-600 lar
+0140: ge disabled" target="gdpr-modal">Start Now</button>.    </div>..
+0180:     <style>.  #gdpr-modal {.    position: absolute;.    bottom: 
+01c0: 0;.  }.</style>.<div id="gdpr-modal" class="modal-window smaller
+0200: -modal hidden">.  ..<style>.  #gdpr-modal-content {.    font-fam
+0240: ily: 'Open Sans', sans-serif;.  }..  #gdpr-modal-content .modal-
+0280: header {.    padding: 50px 55px 35px 55px;.    font-size: 24px;.
+02c0:     font-weight: 400;.  }..  #gdpr-modal-content .modal-footer {
+0300: .    padding: 25px 55px 90px;.  }..  #gdpr-modal-content .modal-
+0340: content {.    padding: 0 55px 5px;.    font-size: 16px;.    line
+0380: -height: 22px;.  }..  #gdpr-modal-content .modal-footer .checkbo
+03c0: x-row {.    font-size: 16px;.    display: inline-flex;.  }..  #g
+0400: dpr-modal-content a {.    color: #0099ff;.  }.  .  #gdpr-modal-c
+0440: ontent .button.disabled {.    background: #f5f6f6 !important;.  
+0480: }.</style>..<div id="gdpr-modal-content">.  .<div class="modal-h
+04c0: eader">HackerEarth...s Privacy Policy and Terms of Service</div>
+0500: .  <div class="modal-content">.      We care about your data pri
+0540: vacy. HackerEarth uses the information that you provide to conta
+0580: ct you about relevant content, products, and services. <br /> <b
+05c0: r />..      Our <a href="/privacy/" target="_blank">Privacy Poli
+0600: cy</a> and <a href="/terms-of-service/" target="_blank">Terms of
+0640:  Service</a> will help you understand that you are in control of
+0680:  your data at HackerEarth..  </div>.  <div class="modal-footer">
+06c0: .    <div class="margin-bottom-15 regular checkbox-row">.      <
+0700: input type="checkbox" name="gdpr-tnc" />.      I have read and I
+0740:  agree..    </div>.    <div class="">.      <input type="submit"
+0780:  name="submit" value="Proceed" class="button btn-blue fontawesom
+07c0: e btn-largest disabled large" id="gdpr-submit" />.    </div>.  <
+0800: /div>.</div>..</div>......                    </form>.          
+0840:       </div>.                <div class="inline-block">.        
+0880:         <p class="dark term-conditions align-center or">or</p>. 
+08c0:                <p class="dark term-conditions"><a class="email-t
+0900: oggle">Start with Email</a> </p>.                <p class="dark 
+0940: email-toggle term-conditions underline-hover hidden">Go back</p>
+0980: .                </div>.            </div><!-- end right-content
+09c0:  -->.        </div><!-- end content-container -->.        <div c
+0a00: lass="clear"></div>.    </section><!-- end first-section -->.   
+0a40:  <section class="hackathons-section">.        <div class="busine
+0a80: ss-text">Help companies find innovative solutions for their busi
+0ac0: nesses</div>.        <div class="clear"></div>.        <div clas
+0b00: s="hackathons-card-container pagelet-inview" id="live-or-upcomin
+0b40: g-hackathons-container" ajax="/pagelets/fetch/latest-hackathons/
+0b80: " target="live-or-upcoming-hackathons-container" loader="true">.
+0bc0:         </div>.    </section>..    <section class="content-secti
+0c00: on">.        <div class="quote-container">.            <div clas
+0c40: s="quote-wrapper">.                <img src="https://static-fast
+0c80: ly.hackerearth.com/static/hackerearth/images/homepage_2/coding_h
+0cc0: e.png" class="inline-block">.                <div class="quote-s
+0d00: ub-wrapper inline-block">.                    <div class="quote 
+0d40: dark">.                        "Anyone who has never made a mist
+0d80: ake has never tried anything new" - <span class="light">Albert E
+0dc0: instein</span></div>.                    <div class="redirect-li
+0e00: nk"><a href="/challenges/" target="_blank">Check out some more r
+0e40: eal-world problems</a></div>.                </div>.            
+0e80:     <div class="clear"></div>.            </div>.        </div>.
+0ec0:         <div class="information-container">.            <div cla
+0f00: ss="left-info-container">.                <div class="left-info"
+0f40: >.                    <h2 class="info-title">Be an innovator and
+0f80:  solve real-world problems. So far...</h2>.                    <
+0fc0: ul class="info-list">.                        <li class="info">.
+1000:                             <i class="fa fa-users info-icon new-
+1040: blue-color"></i>.                            <div class="info-te
+1080: xt">.                                <h3 class="dark">434,565</h
+10c0: 3>.                                <p class="light">innovators f
+1100: rom 123 countries</p>.                            </div>.       
+1140:                  </li>.                        <li class="info">
+1180: .                            <i class="fa fa-lightbulb-o info-ic
+11c0: on new-yellow-color"></i>.                            <div class
+1200: ="info-text">.                                <h3 class="dark">1
+1240: 10,681</h3>.                                <p class="light">ide
+1280: as have been submitted for problems</p>.                        
+12c0:     </div>.                        </li>.                       
+1300:  <li class="info">.                            <i class="fa fa-b
+1340: olt info-icon new-green-color"></i>.                            
+1380: <div class="info-text">.                                <h3 clas
+13c0: s="dark">21,848</h3>.                                <p class="l
+1400: ight">prototypes have been built and pushed to business</p>.    
+1440:                         </div>.                        </li>.   
+1480:                  </ul><!-- end info-list -->.                   
+14c0:  .                    <a id="start-competing-btn" class="button 
+1500: btn-large btn-blue show-modal show-signup-in-modal" target="logi
+1540: n-modal">Start Innovating</a>.                    .             
+1580:    </div><!-- end left-info -->.            </div><!-- end left-
+15c0: info-container -->.            <div class="right-info pagelet-in
+1600: view" id="trending-hackathons" target="trending-hackathons" ajax
+1640: ="/pagelets/fetch/trending-hackathons/">.            </div><!-- 
+1680: end right-info -->.     
+13:00:46.921000 <= Recv SSL data, 5 bytes (0x5)
+0000: ....q
+13:00:46.921000 <= Recv data, 2896 bytes (0xb50)
+0000:    </div><!-- end information-container -->.    </section><!-- e
+0040: nd content-section -->...    <section class="content-section">. 
+0080:        <div class="information-container">.            <div clas
+00c0: s="left-info-container">.                <div class="left-info">
+0100: .                    <h2 class="info-title">Practice with the wo
+0140: rld's fastest growing developer community. So far...</h2>.      
+0180:               <ul class="info-list">.                        <li
+01c0:  class="info">.                            <i class="fa fa-code 
+0200: info-icon new-blue-color"></i>.                            <div 
+0240: class="info-text">.                                <h3 class="da
+0280: rk">87,674,318</h3>.                                <p class="li
+02c0: ght">code submissions from developers</p>.                      
+0300:       </div>.                        </li>.                     
+0340:    <li class="info">.                            <i class="fa fa
+0380: -laptop info-icon new-green-color"></i>.                        
+03c0:     <div class="info-text">.                                <h3 
+0400: class="dark">6,320</h3>.                                <p class
+0440: ="light">practice problems to solve</p>.                        
+0480:     </div>.                        </li>.                       
+04c0:  <li class="info">.                            <i class="fa fa-f
+0500: ile info-icon new-yellow-color"></i>.                           
+0540:  <div class="info-text">.                                <h3 cla
+0580: ss="dark">240</h3>.                                <p class="lig
+05c0: ht">in-depth tutorials for a strong programming foundation</p>. 
+0600:                            </div>.                        </li>.
+0640:                     </ul><!-- end info-list -->.                
+0680:     .                    <a id="start-learning-btn" class="butto
+06c0: n btn-large btn-blue show-modal show-signup-in-modal" target="lo
+0700: gin-modal">Start Practicing</a>.                    .           
+0740:      </div><!-- end left-info -->.            </div><!-- end lef
+0780: t-info-container -->.            <div class="right-info pagelet-
+07c0: inview" id="latest-tutorials-container" ajax="/pagelets/fetch/la
+0800: test-tutorials/" target="latest-tutorials-container" show-loader
+0840: ="true">.            </div><!-- end right-info -->.        </div
+0880: ><!-- end information-container -->.    </section><!-- end conte
+08c0: nt-section -->..    <section class="content-section">.        <d
+0900: iv class="information-container">.            <div class="left-i
+0940: nfo-container">.                <div class="left-info">.        
+0980:             <h2 class="info-title">Compete with the best develop
+09c0: ers and challenge yourself. So far...</h2>.                    <
+0a00: ul class="info-list">.                        <li class="info">.
+0a40:                             <i class="fa fa-cubes info-icon new-
+0a80: blue-color"></i>.                            <div class="info-te
+0ac0: xt">.                                <h3 class="dark">2,363</h3>
+0b00: .                                <p class="light">programming ch
+0b40: allenges conduct
+13:00:46.921000 <= Recv SSL data, 5 bytes (0x5)
+0000: .....
+13:00:46.921000 <= Recv data, 1440 bytes (0x5a0)
+0000: ed</p>.                            </div>.                      
+0040:   </li>.                        <li class="info">.              
+0080:               <i class="fa fa-connectdevelop info-icon new-yello
+00c0: w-color"></i>.                            <div class="info-text"
+0100: >.                                <h3 class="dark">25</h3>.     
+0140:                            <p class="light">programming language
+0180: s in which you can compete</p>.                            </div
+01c0: >.                        </li>.                        <li clas
+0200: s="info">.                            <i class="fa fa-users info
+0240: -icon new-green-color"></i>.                            <div cla
+0280: ss="info-text">.                                <h3 class="dark"
+02c0: >2,806,481</h3>.                                <p class="light"
+0300: >users competing from the community</p>.                        
+0340:     </div>.                        </li>.                    </u
+0380: l><!-- end info-list -->.                    .                  
+03c0:   <a id="start-competing-btn" class="button btn-large btn-blue s
+0400: how-modal show-signup-in-modal" target="login-modal">Start Compe
+0440: ting</a>.                    .                </div><!-- end lef
+0480: t-info -->.            </div><!-- end left-info-container -->.  
+04c0:           <div class="right-info pagelet-inview" id="latest-non-
+0500: hiring-challenges-container" ajax="/pagelets/fetch/latest-upcomi
+0540: ng-non-hiring-challenges/" target="latest-non-hiring-challenges-
+0580: container" show-loader="true">. 
+13:00:46.937000 <= Recv SSL data, 5 bytes (0x5)
+0000: ....q
+13:00:46.937000 <= Recv data, 2896 bytes (0xb50)
+0000:            </div><!-- end right-info -->.        </div><!-- end 
+0040: information-container -->.    </section><!-- end content-section
+0080:  -->..    ..    <section class="network-section">.        <div c
+00c0: lass="companies-container">.            <div class="companies-sl
+0100: ider-container">.                <div class="companies-slider">.
+0140:                     <div class="companies-img adobe"></div>.    
+0180:                 <div class="companies-img inmobi"></div>.       
+01c0:              <div class="companies-img thoughtworks"></div>.    
+0200:                 <div class="companies-img amazon"></div>.       
+0240:              <div class="companies-img societe-gen"></div>.     
+0280:                <div class="companies-img symantec"></div>.      
+02c0:               <div class="companies-img citrix"></div>.         
+0300:            <div class="companies-img codenation"></div>.        
+0340:             <div class="companies-img flipkart"></div>.         
+0380:            <div class="companies-img exponential"></div>.       
+03c0:              <div class="companies-img freshdesk"></div>.       
+0400:              <div class="companies-img druva"></div>.           
+0440:          <div class="companies-img capillary"></div>.           
+0480:          <div class="companies-img lenskart"></div>.            
+04c0:         <div class="companies-img pearson"></div>.              
+0500:       <div class="companies-img passportparking"></div>.        
+0540:             <div class="companies-img syscloud"></div>.         
+0580:            <div class="companies-img practo"></div>.            
+05c0:         <div class="companies-img commonfloor"></div>.          
+0600:           <div class="companies-img target"></div>.             
+0640:        <div class="companies-img khoslalabs"></div>.            
+0680:         <div class="companies-img nutanix"></div>.              
+06c0:       <div class="companies-img mobstac"></div>.                
+0700:     <div class="companies-img gensler"></div>.                  
+0740:   <div class="companies-img walmartlabs"></div>.                
+0780:     <div class="companies-img intuit"></div>.                   
+07c0:  <div class="companies-img snapdeal"></div>.                    
+0800: <div class="companies-img hcl"></div>.                    <div c
+0840: lass="companies-img vmware"></div>.                    <div clas
+0880: s="companies-img cleartrip"></div>.                    <div clas
+08c0: s="companies-img ibm"></div>.                    <div class="com
+0900: panies-img urbanladder"></div>.                    <div class="c
+0940: ompanies-img bookmyshow"></div>.                    <div class="
+0980: companies-img zoomcar"></div>.                    <div class="co
+09c0: mpanies-img taxiforsure"></div>.                    <div class="
+0a00: companies-img webengage"></div>.                    <div class="
+0a40: companies-img nasdaqomx"></div>.                    <div class="
+0a80: companies-img cognizant"></div>.                </div><!-- end c
+0ac0: ompanies-slider -->.            </div><!-- end companies-slider-
+0b00: container -->.            <div class="companies-head">.         
+0b40:        <h3 class
+13:00:46.937000 <= Recv SSL data, 5 bytes (0x5)
+0000: ....i
+13:00:46.937000 <= Recv data, 2888 bytes (0xb48)
+0000: ="dark">Companies that have worked with us</h3>.            </di
+0040: v>.        </div><!-- end companies-container -->.        .    <
+0080: /section><!-- end network-section -->.    <section class="testim
+00c0: onial-section">.        <div class="testimonial-container">.    
+0100:         .            <div class="testimonials">.                
+0140: <div class="right-content">.                    <h3 class="dark"
+0180: >Don't be just another brick in a wall. Get noticed for your inn
+01c0: ovative work across the globe.</h3>.                    .       
+0200:          </div>.                <div class="left-content">.     
+0240:                <div class="testimonial">.                       
+0280:  <div class="testimonial-pic">.                            <img 
+02c0: src="https://static-fastly.hackerearth.com/static/hackerearth/im
+0300: ages/get_me_hired/kevin_bird.png" width="80"/>.                 
+0340:        </div>.                        <div class="testimonial-co
+0380: ntent-container">.                            <p class="dark tes
+03c0: timonial-content border-1">HackerEarth has been a great place to
+0400:  find competitions that interest me.  It's great to have somewhe
+0440: re to practice these skills that companies are looking for.</br>
+0480: ~ Kevin Bird</p>.                        </div>.                
+04c0:     </div>.                    <div class="testimonial">.       
+0500:                  <div class="testimonial-pic">.                 
+0540:            <img src="https://static-fastly.hackerearth.com/stati
+0580: c/hackerearth/images/get_me_hired/sup95.jpg" width="80"/>.      
+05c0:                   </div>.                        <div class="tes
+0600: timonial-content-container">.                            <p clas
+0640: s="dark testimonial-content border-2">I did not want to be just 
+0680: another engineer. I wanted to be extraordinary. I find it empowe
+06c0: ring to be able to bring change with code. Following my passion 
+0700: for building, to breathe life into ideas, I found both thrill an
+0740: d solace in hackathons. HackerEarth has been my constant go-to p
+0780: lace for hackathons. Challenging problems to work on, meeting ne
+07c0: w people, travelling to places and the coveted prizes - I have l
+0800: oved my journey with HackerEarth and have several fond memories;
+0840:  looking forward to many more. :)</br>~ Supriya Srivatsa</p>.   
+0880:                      </div>.                    </div>.         
+08c0:            <div class="testimonial">.                        <di
+0900: v class="testimonial-pic">.                            <img src=
+0940: "https://static-fastly.hackerearth.com/static/hackerearth/images
+0980: /get_me_hired/ranadeepsingh96.jpg" width="80"/>.                
+09c0:         </div>.                        <div class="testimonial-c
+0a00: ontent-container">.                            <p class="dark te
+0a40: stimonial-content border-3">HackerEarth has become my go-to plat
+0a80: form for discovering amazing hackathons. The hackathons I find o
+0ac0: n HackerEarth give meaningful industry problems to hackers faced
+0b00:  by the companies. HackerEarth does a great job at organizing th
+0b40: ese hack
+13:00:46.937000 <= Recv SSL data, 5 bytes (0x5)
+0000: ....q
+13:00:47.281000 <= Recv data, 2896 bytes (0xb50)
+0000: athons from easy to use web site to on ground resources which le
+0040: t me focus on development and provide an opportunity unlike any 
+0080: other to network and learn. </br>~ Ranadeep Singh</p>.          
+00c0:               </div>.                    </div>.                
+0100:     .                </div><!-- end left-content -->.           
+0140:  </div><!-- end testimonials -->.        </div><!-- end testimon
+0180: ial-container -->.    </section><!-- end testimonial-section -->
+01c0: .    <div class="youtube-video">.        <div class="youtube-con
+0200: tainer">.            <span class="video-close toggle-video">&tim
+0240: es;</span>.            <iframe id="youtube-hackerearth" width="1
+0280: 00%" height="100%" src="https://www.youtube.com/embed/-QylJgiVbh
+02c0: A?autoplay=0&showinfo=0&rel=0" frameborder="0" allowfullscreen><
+0300: /iframe>.        </div>.    </div>.</div> <!-- end page -->...  
+0340:   <!-- include modal window for login/signup -->.    .        ..
+0380: <div id="login-modal" class="modal-window smaller-modal hidden">
+03c0: .    <div class="modal-header">.        <div class="login-form a
+0400: lign-center larger heading">Log in</div>.        <div class="sig
+0440: nup-form-div hidden align-center larger heading">Sign Up</div>. 
+0480:        <div class="password-reset hidden align-center larger hea
+04c0: ding">Reset Password</div>.    </div>.    <div class="modal-cont
+0500: ent">..        <div class="login-form">.            .           
+0540:      ...<div class="modal-social-login align-center">.    .    .
+0580:     <a url='/zeus/facebook/login/?display=popup&next=%2Fsocial-l
+05c0: ogin-complete%2F%3Forigin_protocol%3Dhttps%26origin_host%3Dwww.h
+0600: ackerearth.com%26redirect%3D/users/basic-details/&update=faceboo
+0640: k&source=homepage&purpose=login' title="Facebook" class="button 
+0680: btn-facebook btn-medium show-popup inline-block margin-top-8 les
+06c0: s-margin-right less-margin-bottom" minimal="true" style="width: 
+0700: 41%">.    .    <i class="fa fa-facebook"></i> <span class="regul
+0740: ar less-margin-left">Log in with Facebook</span>.    </a>..    .
+0780:     <a url='/zeus/github/login/?next=%2Fsocial-login-complete%2F
+07c0: %3Forigin_protocol%3Dhttps%26origin_host%3Dwww.hackerearth.com%2
+0800: 6redirect%3D/users/basic-details/&update=github&source=homepage&
+0840: purpose=login' title="Github" class="button btn-github btn-mediu
+0880: m show-popup inline-block margin-top-8 less-margin-right" minima
+08c0: l="true" style="width: 43%">.    .    <i class="fa fa-github"></
+0900: i> <span class="regular less-margin-left">Log in with Github</sp
+0940: an>.    </a>..    .    <a url='/zeus/google/login/?next=%2Fsocia
+0980: l-login-complete%2F%3Forigin_protocol%3Dhttps%26origin_host%3Dww
+09c0: w.hackerearth.com%26redirect%3D/users/basic-details/&update=goog
+0a00: le&source=homepage&purpose=login' title="Google" class="button b
+0a40: tn-google btn-medium show-popup margin-top-8 less-margin-right s
+0a80: ign-up-btn-modified" minimal="true" style="display: block">.    
+0ac0: .    <img src="https://static-fastly.hackerearth.com/static/hack
+0b00: erearth/images/google_logo.png" alt="Google" style="vertical-ali
+0b40: gn: middle"> .  
+13:00:47.281000 <= Recv SSL data, 5 bytes (0x5)
+0000: ...4.
+13:00:47.281000 <= Recv data, 13416 bytes (0x3468)
+0000:   <span class="regular medium-margin-left roboto-font-family">Si
+0040: gn in with Google</span>.    </a>.    ..    <div class="clear"><
+0080: /div>.</div>.<div class="align-center standard-margin word-with-
+00c0: line-head">.    <div class="word-with-line inline-block">.      
+0100:   <span class="large light">or</span>.    </div>.</div>..       
+0140:      .            <form id="modal-login-form" name="login-form" 
+0180: method="POST" class="ajax-form medium-margin" ajax="/AJAX/login/
+01c0: ">.                .....    ..        ..        .        <div cl
+0200: ass="wrapper small-wrapper">.            .            <input id=
+0240: "id_login" name="login" placeholder="Username or Email" type="te
+0280: xt" required />.        </div>.        <div class="wrapper small
+02c0: -wrapper">.            <input id="id_password" name="password" p
+0300: laceholder="Password" type="password" required />.        </div>
+0340: .        .    .    <input type="hidden" name="next" value="/user
+0380: s/basic-details/"/>.     <div>.         <a href="#" class="link-
+03c0: 3 show-hide-many float-right" show="password-reset" hide="login-
+0400: form">Forgot Password?</a>.        <div class="clear"></div>.   
+0440:  </div>.    <div class="align-center medium-margin">.        <in
+0480: put type="submit" name="submit" clicked="Logging In.." value="Lo
+04c0: g in &#xf0a9;" class="button btn-blue fontawesome btn-largest we
+0500: ight-600 large"/>.    </div>..    .    <script type="text/javasc
+0540: ript">.        try{.            grecaptcha.render('nocaptcha-rec
+0580: aptcha', {.                'sitekey' : ''.            });.      
+05c0:   }.        catch(err){}.    </script>.    ....            </for
+0600: m>.            .            <div class="align-center dark regula
+0640: r standard-margin dont-have-account">.                Don't have
+0680:  an account? <a href="#" class="link-13 show-hide-many regular" 
+06c0: show="signup-form-div" hide="login-form"> Sign up</a>.          
+0700:   </div>.            .        </div>..        <div class="signup
+0740: -form-div hidden">.            .                ...<div class="m
+0780: odal-social-signup align-center">.    .    .    <a id="social-lo
+07c0: gin-button-fb" url='/zeus/facebook/login/?display=popup&next=%2F
+0800: social-login-complete%2F%3Forigin_protocol%3Dhttps%26origin_host
+0840: %3Dwww.hackerearth.com%26redirect%3D/users/basic-details/&update
+0880: =facebook&source=homepage&purpose=signup' title="Facebook" class
+08c0: ="button btn-facebook btn-medium show-popup inline-block margin-
+0900: top-8 less-margin-right hidden" minimal="true">.    .    <i clas
+0940: s="fa fa-facebook"></i> <span class="regular weight-600 less-mar
+0980: gin-left">Facebook</span>.    </a>.    <a class="button btn-face
+09c0: book btn-medium inline-block margin-top-8 less-margin-right less
+0a00: -margin-bottom social-login-button social-login-button-fb show-m
+0a40: odal".    target="gdpr-modal">.    <i class="fa fa-facebook"></i
+0a80: > <span class="regular less-margin-left">Sign up with Facebook</
+0ac0: span>.    </a>..    .    <a id="social-login-button-github" url=
+0b00: '/zeus/github/login/?next=%2Fsocial-login-complete%2F%3Forigin_p
+0b40: rotocol%3Dhttps%26origin_host%3Dwww.hackerearth.com%26redirect%3
+0b80: D/users/basic-details/&update=github&source=homepage&purpose=sig
+0bc0: nup' title="Github" class="button btn-github btn-medium inline-b
+0c00: lock margin-top-8 less-margin-right show-popup hidden" minimal="
+0c40: true">.    .    <i class="fa fa-github"></i> <span class="regula
+0c80: r weight-600 less-margin-left">Github</span>.    </a>.    <a cla
+0cc0: ss="button btn-github btn-medium inline-block margin-top-8 less-
+0d00: margin-right social-login-button social-login-button-github show
+0d40: -modal".    target="gdpr-modal">.    <i class="fa fa-github"></i
+0d80: > <span class="regular less-margin-left">Sign up with Github</sp
+0dc0: an>.    </a>..    .    <a id="social-login-button-g" url='/zeus/
+0e00: google/login/?next=%2Fsocial-login-complete%2F%3Forigin_protocol
+0e40: %3Dhttps%26origin_host%3Dwww.hackerearth.com%26redirect%3D/users
+0e80: /basic-details/&update=google&source=homepage&purpose=signup' ti
+0ec0: tle="Google" class="button btn-google btn-medium inline-block ma
+0f00: rgin-top-8 less-margin-right show-popup hidden" minimal="true">.
+0f40:     .    <i class="fa fa-google-plus"></i> <span class="regular 
+0f80: weight-600 less-margin-left">Google</span>.    </a>.    <a class
+0fc0: ="button btn-google btn-medium margin-top-8 less-margin-right so
+1000: cial-login-button social-login-button-g show-modal sign-up-btn-m
+1040: odified" style="display: block".    target="gdpr-modal">.    <im
+1080: g src="https://static-fastly.hackerearth.com/static/hackerearth/
+10c0: images/google_logo.png" alt="Google" style="vertical-align: midd
+1100: le"> .    <span class="regular medium-margin-left roboto-font-fa
+1140: mily">Sign up with Google</span>.    </a>.    ..    <div class="
+1180: clear"></div>.</div>.<div class="align-center standard-margin wo
+11c0: rd-with-line-head">.    <div class="word-with-line inline-block"
+1200: >.        <span class="large light">or</span>.    </div>.</div>.
+1240: .            .            .            <form id="modal-signup-fo
+1280: rm" name="signup-form" method="POST" class="ajax-form medium-mar
+12c0: gin" ajax="/AJAX/hackerearth/signup/?source=homepage&next=/users
+1300: /basic-details/">.            .                ....    .        
+1340: ..        .        <div class="wrapper small-wrapper float-left"
+1380: >.            <input id="id_first_name" maxlength="30" name="fir
+13c0: st_name" placeholder="First Name" type="text" required />.      
+1400:   </div>..        <div class="wrapper small-wrapper float-right"
+1440: >.            <input id="id_last_name" maxlength="30" name="last
+1480: _name" placeholder="Last Name" type="text" />.        </div>..  
+14c0:       <div class="clear"></div>..        <div class="wrapper sma
+1500: ll-wrapper">.            <input id="id_email" maxlength="75" nam
+1540: e="email" placeholder="Email" type="text" required />.        </
+1580: div>.        <div class="wrapper small-wrapper">.            <in
+15c0: put id="id_password" name="password" placeholder="Password" type
+1600: ="password" required />.        </div>.    ..    <div class="ali
+1640: gn-center medium-margin">.        <button id="signup-start-now" 
+1680: class="button btn-blue fontawesome btn-largest weight-600 large 
+16c0: disabled" target="gdpr-modal">Start Now</button>.    </div>..   
+1700:  <style>.  #gdpr-modal {.    position: absolute;.    bottom: 0;.
+1740:   }.</style>.<div id="gdpr-modal" class="modal-window smaller-mo
+1780: dal hidden">.  ..<style>.  #gdpr-modal-content {.    font-family
+17c0: : 'Open Sans', sans-serif;.  }..  #gdpr-modal-content .modal-hea
+1800: der {.    padding: 50px 55px 35px 55px;.    font-size: 24px;.   
+1840:  font-weight: 400;.  }..  #gdpr-modal-content .modal-footer {.  
+1880:   padding: 25px 55px 90px;.  }..  #gdpr-modal-content .modal-con
+18c0: tent {.    padding: 0 55px 5px;.    font-size: 16px;.    line-he
+1900: ight: 22px;.  }..  #gdpr-modal-content .modal-footer .checkbox-r
+1940: ow {.    font-size: 16px;.    display: inline-flex;.  }..  #gdpr
+1980: -modal-content a {.    color: #0099ff;.  }.  .  #gdpr-modal-cont
+19c0: ent .button.disabled {.    background: #f5f6f6 !important;.  }.<
+1a00: /style>..<div id="gdpr-modal-content">.  .<div class="modal-head
+1a40: er">HackerEarth...s Privacy Policy and Terms of Service</div>.  
+1a80: <div class="modal-content">.      We care about your data privac
+1ac0: y. HackerEarth uses the information that you provide to contact 
+1b00: you about relevant content, products, and services. <br /> <br /
+1b40: >..      Our <a href="/privacy/" target="_blank">Privacy Policy<
+1b80: /a> and <a href="/terms-of-service/" target="_blank">Terms of Se
+1bc0: rvice</a> will help you understand that you are in control of yo
+1c00: ur data at HackerEarth..  </div>.  <div class="modal-footer">.  
+1c40:   <div class="margin-bottom-15 regular checkbox-row">.      <inp
+1c80: ut type="checkbox" name="gdpr-tnc" />.      I have read and I ag
+1cc0: ree..    </div>.    <div class="">.      <input type="submit" na
+1d00: me="submit" value="Proceed" class="button btn-blue fontawesome b
+1d40: tn-largest disabled large" id="gdpr-submit" />.    </div>.  </di
+1d80: v>.</div>..</div>......            </form>.            <div clas
+1dc0: s="align-center dark regular standard-margin dont-have-account">
+1e00: .                Have an account? <a href="#" class="link-13 sho
+1e40: w-hide-many regular" show="login-form" hide="signup-form-div"> L
+1e80: og in</a>.            </div>.        </div>..        <div class=
+1ec0: "password-reset hidden">.            <form name="password-reset"
+1f00:  method="POST" class="ajax-form" ajax="/AJAX/password/reset/?nex
+1f40: t=/">.                .....    .    <p class="dark large"> A pas
+1f80: sword reset link will be sent to the following email id</p>.    
+1fc0: .    <div class="wrapper">.        .        <input id="id_email"
+2000:  name="email" placeholder="Email" size="30" type="text" required
+2040:  />.    </div>.    .    <div class="align-center medium-margin">
+2080: .        <input type="submit" name="submit" clicked="Sending.." 
+20c0: value="Send Password Reset Link" class="button btn-blue btn-larg
+2100: est weight-600 large"/>.    </div>...            </form>.       
+2140:  </div>..    </div>.    <div class="gdpr-modal-content hidden">.
+2180:         ..<style>.  #gdpr-modal-content {.    font-family: 'Open
+21c0:  Sans', sans-serif;.  }..  #gdpr-modal-content .modal-header {. 
+2200:    padding: 50px 55px 35px 55px;.    font-size: 24px;.    font-w
+2240: eight: 400;.  }..  #gdpr-modal-content .modal-footer {.    paddi
+2280: ng: 25px 55px 90px;.  }..  #gdpr-modal-content .modal-content {.
+22c0:     padding: 0 55px 5px;.    font-size: 16px;.    line-height: 2
+2300: 2px;.  }..  #gdpr-modal-content .modal-footer .checkbox-row {.  
+2340:   font-size: 16px;.    display: inline-flex;.  }..  #gdpr-modal-
+2380: content a {.    color: #0099ff;.  }.  .  #gdpr-modal-content .bu
+23c0: tton.disabled {.    background: #f5f6f6 !important;.  }.</style>
+2400: ..<div id="gdpr-modal-content">.  .<div class="modal-header">Hac
+2440: kerEarth...s Privacy Policy and Terms of Service</div>.  <div cl
+2480: ass="modal-content">.      We care about your data privacy. Hack
+24c0: erEarth uses the information that you provide to contact you abo
+2500: ut relevant content, products, and services. <br /> <br />..    
+2540:   Our <a href="/privacy/" target="_blank">Privacy Policy</a> and
+2580:  <a href="/terms-of-service/" target="_blank">Terms of Service</
+25c0: a> will help you understand that you are in control of your data
+2600:  at HackerEarth..  </div>.  <div class="modal-footer">.    <div 
+2640: class="margin-bottom-15 regular checkbox-row">.      <input type
+2680: ="checkbox" name="gdpr-tnc" />.      I have read and I agree..  
+26c0:   </div>.    <div class="">.      <input type="submit" name="sub
+2700: mit" value="Proceed" class="button btn-blue fontawesome btn-larg
+2740: est disabled large" id="gdpr-submit" />.    </div>.  </div>.</di
+2780: v>..    </div>.</div>..    ..    <!-- override this block where 
+27c0: we do not want the footer -->.    .    .        .               
+2800:  ......<div class="footer-large">.    <div class="content align-
+2840: center">.        <div class="footer-sub-container">.            
+2880: <div class="section">.                <a class="footer-link" hre
+28c0: f="https://www.hackerearth.com/team/" target="_blank">About Us</
+2900: a>.            </div>.            <div class="section">.        
+2940:         <a class="footer-link" href="https://www.hackerearth.com
+2980: /sprint/" target="_blank">Innovation Management</a>.            
+29c0: </div>.            <div class="section">.                <a clas
+2a00: s="footer-link" href="https://www.hackerearth.com/recruit/" targ
+2a40: et="_blank">Technical Recruitment</a>.            </div>.       
+2a80:      <div class="section">.                <a class="footer-link
+2ac0: " href="https://www.hackerearth.com/university/" target="_blank"
+2b00: >University Program</a>.            </div>.            <div clas
+2b40: s="section">.                <a class="footer-link" href="https:
+2b80: //www.hackerearth.com/docs/wiki/developers/solution-guide/" targ
+2bc0: et="_blank">Developers Wiki</a>.            </div>.            <
+2c00: div class="section">.                <a class="footer-link" href
+2c40: ="http://blog.hackerearth.com/" target="_blank">Blog</a>.       
+2c80:      </div>.            <div class="section">.                <a
+2cc0:  class="footer-link" href="https://www.hackerearth.com/press/" t
+2d00: arget="_blank">Press</a>.            </div>.            <div cla
+2d40: ss="section">.                <a class="footer-link" href="https
+2d80: ://www.hackerearth.com/companies/hackerearth/jobs/" target="_bla
+2dc0: nk">Careers</a>.            </div>.            <div class="secti
+2e00: on">.                <a class="footer-link" href="https://www.ha
+2e40: ckerearth.com/reach-us/" target="_blank">Reach Us</a>.          
+2e80:   </div>.            .        </div>.    </div> <!-- content -->
+2ec0: .    <div class="clear"></div>.    <div class="footer-bottom-con
+2f00: tainer lighter small">.        <div class="footer-bottom">.     
+2f40:        .            <img src="https://static-fastly.hackerearth.
+2f80: com/static/hackerearth/images/logo/HE_identity.png" />.         
+2fc0:    .            <div class="float-right">.                <span>
+3000: .                    <span>Site Language: </span>.              
+3040:       <select id="global-locale-switcher" class="nice-select" aj
+3080: ax_url="/users/update-locale-setting/" page_url="/" onchange="ch
+30c0: angeUserLocale(this, 'en-us', false)">.                        .
+3100:                         .                        <option value="
+3140: ru" url="/ru/">.............. ........</option>.                
+3180:         .                        .                        .     
+31c0:                    <option value="fr" url="/fr/">Fran..ais</opti
+3200: on>.                        .                        .          
+3240:               .                        <option value="zh" url="/
+3280: zh/">......</option>.                        .                  
+32c0:       .                        .                        <option 
+3300: value="en-us" selected="selected" url="/en-us/">English</option>
+3340: .                        .                        .             
+3380:            .                        <option value="pt-br" url="/
+33c0: pt-br/">Portugu..s</option>.                        .           
+3400:              .                        .                        <
+3440: option value="ja" url="/ja/">.........</
+13:00:47.296000 <= Recv SSL data, 5 bytes (0x5)
+0000: ...@.
+13:00:47.296000 <= Recv data, 16339 bytes (0x3fd3)
+0000: option>.                        .                        .      
+0040:               </select>.                </span>.                
+0080: <span class="separator">|</span>.                <span><a href="
+00c0: https://www.hackerearth.com/terms-of-service/">Terms and Conditi
+0100: ons</a></span>.                <span class="separator">|</span>.
+0140:                 <span><a href="https://www.hackerearth.com/priva
+0180: cy/">Privacy</a></span>.                <span class="separator">
+01c0: |</span>.                <span class="align-right float-right">&
+0200: copy; 2019 HackerEarth</span>.            </div>.        </div>.
+0240:     </div><!-- footer-bottom-container -->.</div>..        .    
+0280: .    ..    <div class="expand-box" id="recruiter-box">.        <
+02c0: div class="down-arrow"></div>.        <ul class="no-margin">.   
+0300:          .            .            .            <a href="/logout
+0340: /?next=/"><li>Logout</li></a>.        </ul>.    </div>..    ..  
+0380:   <!-- Include notifications box -->.    ....<div class="expand-
+03c0: box" id="notifications-box">.    <div class="down-arrow"></div>.
+0400:     <div class="notifications-title-container">.        <div cla
+0440: ss="float-left weight-600">Notifications</div>.        <div clas
+0480: s="float-right">.            <a href="#" ajax="https://www.hacke
+04c0: rearth.com/notifications/AJAX/mark-all-read/" class="notif-mark-
+0500: all-read link smaller clicky-ajax">Mark All as Read</a>.        
+0540: </div>.        <div class="clear"></div>.    </div> <!-- notific
+0580: ations-title-container -->..    <div class="notifications-contai
+05c0: ner nice-scrollbar" id="notifications-container">.    </div> <!-
+0600: - notifications-container -->..    <div class="smaller caps weig
+0640: ht-600 align-center less-margin-2 less-margin-2-bottom">.       
+0680:  <a class="link" href="https://www.hackerearth.com/notifications
+06c0: /">View All Notifications</a>.    </div>.</div> <!-- notificatio
+0700: ns-box -->...    <!-- Load notification icon with unread count -
+0740: ->.    <div id="header-notif-icon-trigger" class="load-pagelet h
+0780: idden" target="header-notif-icon" ajax="/notifications/pagelets/
+07c0: header-notif-icon-count/" show-loader="false"></div>..    .    <
+0800: !-- Load live events widget -->.    <div id="live-events-trigger
+0840: " class="load-pagelet hidden" target="live-events-trigger-data" 
+0880: ajax="/AJAX/live_events_widget_count/" show-loader="false"></div
+08c0: >.    ..    .    .    ..    ..    .    ..        .        ..    
+0900:     <!-- Store any json returned for bigpipe -->.        <div id
+0940: ="bigpipe-json" class="hidden">.            .        </div>..   
+0980:      <!-- Store any json returned for bigpipe -->.        <div i
+09c0: d="user-prompt-json" class="hidden">.            .        </div>
+0a00: ..        <!-- Store any html returned for feedback popup -->.  
+0a40:       <div id="user-feedback-popup" class="hidden"></div>...    
+0a80:     <!-- realtime host -->.        <div id="realtime-host" class
+0ac0: ="hidden">realtime.hackerearth.com</div>.        <!-- realtime p
+0b00: ort -->.        <div id="realtime-port" class="hidden">80</div>.
+0b40: .        <!-- client name for updating parts of page in realtime
+0b80:  -->.        <div id="pusher-channel-name-0" class="hidden">afb1
+0bc0: 8a5766a39362059f762033d853bfc6191252</div>.        ..        .  
+0c00:           <div id="common-notification">.            </div>.    
+0c40:     .        <!-- pusher app key -->.        <div id="pusher-app
+0c80: -key" class="hidden">58a29e5cae2309f04b28</div>..        <!-- pu
+0cc0: sher auth url -->.        <div id="pusher-auth-url" class="hidde
+0d00: n">/realtime/pusher/auth/</div>..        <!-- ping url for user 
+0d40: presence -->.        <div id="ghost-ping-url" class="hidden" aja
+0d80: x="/ghost/ping/"></div>..        .        ..        <!-- url to 
+0dc0: get active lab features -->.        .        <!-- All the script
+0e00: s go here -->.        <script>.            var CURRENT_PATH = "h
+0e40: ttps://www.hackerearth.com/";.            var HISTORY = '';..   
+0e80:          // Make code constants available globally in JS.       
+0ec0:      var MAP_LANG_TO_NAME = {"SCALA_2118": "Scala 2.11.8", "LUA"
+0f00: : "Lua", "PASCAL": "Pascal", "CSHARP": "C#", "CPP": "C++", "PYTH
+0f40: ON3": "Python 3", "POSTGRESQL": "PostgreSQL", "KOTLIN": "Kotlin"
+0f80: , "SCALA": "Scala", "PERL": "Perl", "HASKELL": "Haskell", "D": "
+0fc0: D", "CPP14": "C++14", "R": "R(RScript)", "CPP11": "C++11", "GO":
+1000:  "Go", "RUBY": "Ruby", "BASH": "Bash", "GROOVY": "Groovy", "LOLC
+1040: ODE": "LOLCODE", "LISP": "Lisp", "Text": "Text", "WHENEVER": "Wh
+1080: enever", "MYSQL": "MySQL", "OBJECTIVEC": "Objective-C", "PHP": "
+10c0: PHP", "JAVASCRIPT_UI": "JavaScript", "PYTHON": "Python", "JAVASC
+1100: RIPT": "JavaScript(Rhino)", "SWIFT_4_1": "Swift-4.1", "vp": "N/A
+1140: ", "TEXTFILE": "Text", "JAVA8": "Java 8", "JAVASCRIPT_NODE": "Ja
+1180: vaScript(Node.js)", "RACKET": "Racket", "HTML": "HTML", "SWIFT":
+11c0:  "Swift", "RUST": "Rust", "FSHARP": "F#", "C": "C", "TYPESCRIPT"
+1200: : "TypeScript", "ORACLE_DB": "Oracle_Db", "OCAML": "OCaml", "OCT
+1240: AVE": "Octave", "CLOJURE": "Clojure", "BEFUNGE": "Befunge", "CSS
+1280: ": "CSS", "ERLANG": "Erlang", "JAVA": "Java", "LISP_SBCL": "Lisp
+12c0:  (SBCL)", "JULIA": "Julia", "VB": "Visual Basic", "MSSQL": "MSSQ
+1300: L"};.            var MAP_NAME_TO_LANG = {"Lisp (SBCL)": "LISP_SB
+1340: CL", "TypeScript": "TYPESCRIPT", "Java": "JAVA", "Scala": "SCALA
+1380: ", "JavaScript": "JAVASCRIPT_UI", "Perl": "PERL", "Lua": "LUA", 
+13c0: "JavaScript(Rhino)": "JAVASCRIPT", "MySQL": "MYSQL", "Erlang": "
+1400: ERLANG", "LOLCODE": "LOLCODE", "HTML": "HTML", "C#": "CSHARP", "
+1440: R(RScript)": "R", "C++14": "CPP14", "Rust": "RUST", "Octave": "O
+1480: CTAVE", "Ruby": "RUBY", "Bash": "BASH", "Groovy": "GROOVY", "C":
+14c0:  "C", "Python 3": "PYTHON3", "Lisp": "LISP", "Kotlin": "KOTLIN",
+1500:  "Oracle_Db": "ORACLE_DB", "F#": "FSHARP", "N/A": "vp", "C++": "
+1540: CPP", "Racket": "RACKET", "Objective-C": "OBJECTIVEC", "Swift": 
+1580: "SWIFT", "CSS": "CSS", "D": "D", "Clojure": "CLOJURE", "Befunge"
+15c0: : "BEFUNGE", "Java 8": "JAVA8", "Whenever": "WHENEVER", "Postgre
+1600: SQL": "POSTGRESQL", "Text": "TEXTFILE", "Swift-4.1": "SWIFT_4_1"
+1640: , "OCaml": "OCAML", "Julia": "JULIA", "JavaScript(Node.js)": "JA
+1680: VASCRIPT_NODE", "Python": "PYTHON", "Pascal": "PASCAL", "Haskell
+16c0: ": "HASKELL", "Scala 2.11.8": "SCALA_2118", "C++11": "CPP11", "G
+1700: o": "GO", "Visual Basic": "VB", "PHP": "PHP", "MSSQL": "MSSQL"};
+1740: .        </script>..        ..        <!-- alljs: static_media/j
+1780: s/jquery-1.7.min.patched.js static_media/js/jquery.color.js stat
+17c0: ic_media/js/jquery.elastic.js static_media/js/ajaxSend.js  stati
+1800: c_media/js/jquery.inview.js  static_media/js/tooltip/jquery.tipT
+1840: ip.modified.js  static_media/offline/offline.min.js  static_medi
+1880: a/js/watermark.min.js  static_media/history.js?v=0.1/scripts/bun
+18c0: dled/html4html5/jquery.history.js  static_media/js/jquery.nicesc
+1900: roll.js  static_media/simplemodal/simplemodal.js static_media/js
+1940: /jquery.sticky.js static_media/js/pusher.min.js static_media/js/
+1980: ifvisible.min.js static_media/ghost/ghost.js static_media/feeds/
+19c0: feeds.js static_media/base/progress_bar.js -->.        ...<scrip
+1a00: t>.    UPLOADING_TEXT = "Uploading";.    UPLOADED_TEXT = "Upload
+1a40: ed";.    SAVING_TEXT = "Saving..";.    UPLOAD_SUCCESS_MESSAGE = 
+1a80: "File saved successfully.";.    UPLOAD_ERROR_MESSAGE = "An error
+1ac0:  occured while saving, please try again in sometime.";.</script>
+1b00: .<script type="text/javascript" src="https://static-fastly.hacke
+1b40: rearth.com/static/js/alljs.js?vrsn=3" crossorigin="anonymous" ><
+1b80: /script>.        <script type="text/javascript" src="https://sta
+1bc0: tic-fastly.hackerearth.com/static/base/base1.0.1.js?vrsn=16" cro
+1c00: ssorigin="anonymous" ></script>.        <script type="text/javas
+1c40: cript" src="https://static-fastly.hackerearth.com/static/bigpipe
+1c80: /bigpipe.js?vrsn=6" crossorigin="anonymous" ></script>.        .
+1cc0: ..<script type="text/javascript">.var CONFIRM_COMMENT_DELETE = "
+1d00: Are you sure, you want to delete comment?";.var COMMENT_NOT_DELE
+1d40: TED = "Comment could not be deleted!";.var CONFORM_COMMENT_MARK_
+1d80: SPAM = "Are you sure, you want to mark this comment as spam?";.v
+1dc0: ar COMMENT_NOT_MARKED_SPAM = "Comment could not be marked as spa
+1e00: m!";.var ENTER_15_CHARS = "Enter atleast 15 characters";.var JUS
+1e40: T_X_MORE = "Just {count} more to go";.</script>.        <script 
+1e80: type="text/javascript" src="https://static-fastly.hackerearth.co
+1ec0: m/static/realtime/pusher_realtime.js?vrsn=2" crossorigin="anonym
+1f00: ous" ></script>.        <script type='text/javascript' src='http
+1f40: s://static-fastly.hackerearth.com/static/user_prompts/userprompt
+1f80: .js?v=0.6' crossorigin="anonymous"></script>.        <script typ
+1fc0: e='text/javascript' src='https://static-fastly.hackerearth.com/s
+2000: tatic/base/history.js?v=0.4' crossorigin="anonymous"></script>. 
+2040:        <script type="text/javascript" src="https://static-fastly
+2080: .hackerearth.com/static/js/commentUtils.js?vrsn=1" crossorigin="
+20c0: anonymous" ></script>..        .        <script src="https://www
+2100: .google.com/recaptcha/api.js" async defer></script>.        ..  
+2140:       <script src="https://static-fastly.hackerearth.com/static/
+2180: offline/offline.min.js?v=0.3" crossorigin="anonymous"></script>.
+21c0:         ..        .<script type="text/javascript" async src="htt
+2200: ps://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?con
+2240: fig=TeX-AMS_SVG"></script>.<script type="text/x-mathjax-config">
+2280: .    MathJax.Hub.Config({.        messageStyle: "none",.        
+22c0: jax: ["input/TeX", "output/SVG"],.        tex2jax: {.           
+2300:  inlineMath: [['$$','$$'], ['\\(', '\\)']],.            displayM
+2340: ath: [['$$$', '$$$'], ['\\[', '\\]']],.            preview: "non
+2380: e".        },.    });.</script>.<script type="text/javascript" s
+23c0: rc = "https://static-fastly.hackerearth.com/static/js/mathjax.js
+2400: "></script>.<script type="text/javascript">.    window.addEventL
+2440: istener("load", function() {.        MathJax.Hub.Queue(["Typeset
+2480: ", MathJax.Hub]);.    });.</script>..        <script>.          
+24c0:   Offline.options = {.                interceptRequests: false,.
+2500:                 requests: false,.            };.        </script
+2540: >..        ..        ...<script>..$(document).ready(function (){
+2580: .    $('#header-notif-icon-trigger').click();..    .    $('#live
+25c0: -events-trigger').click();.    ..    .    .    ..    ..    // sh
+2600: ow kone ge widget if not visited.    ..});.</script>..<script ty
+2640: pe="text/javascript">.$(document).ready(function() {.    .    va
+2680: r m_links = {};.    var m_elements = {.        '#modal-login-for
+26c0: m input[type=submit]': 'Modal Email Login',.        '#modal-sign
+2700: up-form input[type=submit]': 'Modal Email Signup',.        '.mod
+2740: al-social-login .btn-facebook': 'Modal Facebook Login',.        
+2780: '.modal-social-login .btn-google': 'Modal Google Login',.       
+27c0:  '.modal-social-signup .btn-facebook': 'Modal Facebook Signup',.
+2800:         '.modal-social-signup .btn-google': 'Modal Google Signup
+2840: ',.        '.top-banner .login-banner a': 'Signup after banner c
+2880: lick',.    };.    .    for (var key in m_elements) {.        $(k
+28c0: ey).live('click', {'key': key }, function(e) {.            var k
+2900: ey = e.data.key;.            mixpanel.track('Click', {'name': m_
+2940: elements[key]});.        });.    }.    for (var key in m_links) 
+2980: {.        mixpanel.track_links(key, 'Click', {'name': m_links[ke
+29c0: y]});.    }.});.</script>.....<script type="text/javascript" src
+2a00: ="https://static-fastly.hackerearth.com/static/search/search.1.0
+2a40: .js?vrsn=5" crossorigin="anonymous" defer></script>......<script
+2a80:  type='text/javascript' src='https://static-fastly.hackerearth.c
+2ac0: om/static/lab/lab.js?v=0.3' crossorigin="anonymous"></script>..<
+2b00: script type="text/javascript" src="https://static-fastly.hackere
+2b40: arth.com/static/base/gdpr-modal.js?vrsn=1" crossorigin="anonymou
+2b80: s" ></script>....        <script>.            // Used in search.
+2bc0:             var is_user_logged_in = false;.        </script>..  
+2c00:       <script type="text/javascript" src="https://static-fastly.
+2c40: hackerearth.com/static/js/detect_timezone.js?v=0.2" crossorigin=
+2c80: "anonymous"></script>..        .        <script>..            fu
+2cc0: nction setTimezoneCookie(detected_user_tz) {.                /* 
+2d00: Sets the detected user timezone as a cookie in the browser..    
+2d40:                If someone changes it or removes it, a sanity che
+2d80: ck is.                   performed and the cookie is reset...   
+2dc0:                 This cookie is set for ready availability of use
+2e00: r timezone.                   in the backend..                */
+2e40: ..                const USER_TIMEZONE_COOKIE = 'user_tz';.      
+2e80:           // Try to get the existing user timezone cookie stored
+2ec0: .                // in the browser..                user_tz = re
+2f00: adCookie(USER_TIMEZONE_COOKIE);..                // Flag to dete
+2f40: rmine whether a new cookie has to be created..                cr
+2f80: eate_cookie = false;..                if(user_tz) {.            
+2fc0:         if(user_tz !== detected_user_tz) {.                     
+3000:    // If someone has changed the cookie in some way, we.        
+3040:                 // set a new cookie..                        era
+3080: seCookie(USER_TIMEZONE_COOKIE);.                        create_c
+30c0: ookie = true;.                    }.                } else {.   
+3100:                  create_cookie = true;.                }..      
+3140:           // Create a new cookie if create_cookie flag is set.. 
+3180:                createCookie(USER_TIMEZONE_COOKIE, detected_user_
+31c0: tz, 1);..            }.            $(document).ready(function(){
+3200: .                var timezone = jstz.determine_timezone(); // No
+3240: w you have an instance of the TimeZone object..                /
+3280: / Set as a cookie in browser for easy access in backend..       
+32c0:          setTimezoneCookie(timezone.name());..                //
+3300:  Set as a js variable for easy access across frontend..         
+3340:        USER_TIMEZONE = timezone.name()..                ..      
+3380:           ..                .                .                ..
+33c0:                 ..                .                    $.ajax({.
+3400:                         type: "POST",.                        ur
+3440: l:"/users/AJAX/set-timezone/",.                        data: {. 
+3480:                        'timezone': timezone.name(),.            
+34c0:             },.                    });.                .        
+3500:     });.        </script>.        .        ..        <script typ
+3540: e="text/javascript">.            .            $(document).ready(
+3580: function(){.                //mixpanel delegate links custom met
+35c0: hod.                mixpanel.delegate_links = function (parent, 
+3600: selector, event_name, properties) {.                    properti
+3640: es = properties || {};.                    parent = parent || do
+3680: cument.body;.                    parent = $(parent);.           
+36c0:          parent.on('click', selector, function (event) {.       
+3700:                  var new_tab = event.which === 2 || event.metaKe
+3740: y || event.target.target === '_blank' || this.target === '_blank
+3780: ';.                        properties.url = event.target.href ||
+37c0:  this.href;.                        function callback() {.      
+3800:                       if (new_tab) {.                           
+3840:      return;.                            }.                     
+3880:        window.location = properties.url;.                       
+38c0:  }.                        if (!new_tab) {.                     
+3900:        event.preventDefault();.                            setTi
+3940: meout(callback, 300);.                        }.                
+3980:         mixpanel.track(event_name, properties, callback);.      
+39c0:               });.                };.            });.           
+3a00:  .        </script>..        .<script type='text/javascript' src
+3a40: ="https://static-fastly.hackerearth.com/static/hackerearth/homep
+3a80: age.js?v=0.9" crossorigin="anonymous"></script>.<script type="ap
+3ac0: plication/ld+json">.{.    "@context": "http://schema.org/",.    
+3b00: "@type": "Organization",.    "url": "http://www.hackerearth.com/
+3b40: ",.    "logo": "https://static-fastly.hackerearth.com/static/hac
+3b80: kerearth/images/logo/HE_logo.png".}.</script>.<script type="text
+3bc0: /javascript">.function applyTransition() {.    $('.articles-cont
+3c00: ainer').animate({.        "left": 0,.        "opacity": 1.    })
+3c40: ;.}..$(document).ready(function() {.    $('#live-or-upcoming-hac
+3c80: kathons-container').click();.    $('#latest-tutorials-container'
+3cc0: ).click();.    $('#latest-non-hiring-challenges-container').clic
+3d00: k();..    .    .    .});.</script>....        .        <!-- mixp
+3d40: anel analytics start -->.        <script type="text/javascript">
+3d80: (function(e,a){if(!a.__SV){var b=window;try{var c,l,i,j=b.locati
+3dc0: on,g=j.hash;c=function(a,b){return(l=a.match(RegExp(b+"=([^&]*)"
+3e00: )))?l[1]:null};g&&c(g,"state")&&(i=JSON.parse(decodeURIComponent
+3e40: (c(g,"state"))),"mpeditor"===i.action&&(b.sessionStorage.setItem
+3e80: ("_mpcehash",g),history.replaceState(i.desiredHash||"",e.title,j
+3ec0: .pathname+j.search)))}catch(m){}var k,h;window.mixpanel=a;a._i=[
+3f00: ];a.init=function(b,c,f){function e(b,a){var c=a.split(".");2==c
+3f40: .length&&(b=b[c[0]],a=c[1]);b[a]=function(){b.push([a].concat(Ar
+3f80: ray.prototype.slice.call(arguments,0)))}}var d=a;"undefined"!==t
+3fc0: ypeof f?d=a[f]=[]:f
+13:00:47.296000 <= Recv SSL data, 5 bytes (0x5)
+0000: .....
+13:00:47.296000 <= Recv data, 2974 bytes (0xb9e)
+0000: ="mixpanel";d.people=d.people||[];d.toString=function(b){var a="
+0040: mixpanel";"mixpanel"!==f&&(a+="."+f);b||(a+=" (stub)");return a}
+0080: ;d.people.toString=function(){return d.toString(1)+".people (stu
+00c0: b)"};k="disable time_event track track_pageview track_links trac
+0100: k_forms register register_once alias unregister identify name_ta
+0140: g set_config reset people.set people.set_once people.unset peopl
+0180: e.increment people.append people.union people.track_charge peopl
+01c0: e.clear_charges people.delete_user".split(" ");for(h=0;h<k.lengt
+0200: h;h++)e(d,k[h]);a._i.push([b,c,f])};a.__SV=1.2;b=e.createElement
+0240: ("script");b.type="text/javascript";b.async=!0;b.src="undefined"
+0280: !==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"file:
+02c0: "===e.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest
+0300: .min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-l
+0340: atest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";c=
+0380: e.getElementsByTagName("script")[0];c.parentNode.insertBefore(b,
+03c0: c)}})(document,window.mixpanel||[]);mixpanel.init("4c30b86353630
+0400: 27dfb780d5a61785112");.        </script>.        <!-- mixpanel a
+0440: nalytics end -->.        <script type="text/javascript">.       
+0480:      .                .                    mixpanel.unregister("
+04c0: username");.                    mixpanel.unregister("email");.  
+0500:                   mixpanel.unregister("date_of_joining");.      
+0540:               mixpanel.unregister("user_bucket");.              
+0580:       mixpanel.unregister("company");.                    mixpan
+05c0: el.unregister("is_recruiter");.                    mixpanel.regi
+0600: ster({.                        "url_path": "/".                 
+0640:    });.                .            .        </script>.        .
+0680: .        .        .        <div id="fb-root"></div>.        <scr
+06c0: ipt>.            <!-- facebook button -->.            (function(
+0700: d, s, id) {.                var js, fjs = d.getElementsByTagName
+0740: (s)[0];.                if (d.getElementById(id)) return;.      
+0780:           js = d.createElement(s); js.id = id;.                j
+07c0: s.src = "//connect.facebook.net/en_US/all.js#xfbml=1";.         
+0800:        fjs.parentNode.insertBefore(js, fjs);.            }(docum
+0840: ent, 'script', 'facebook-jssdk'));..            <!-- twitter but
+0880: ton -->.            !function(d,s,id){var js,fjs=d.getElementsBy
+08c0: TagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js
+0900: .id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode
+0940: .insertBefore(js,fjs);}}(document,"script","twitter-wjs");..    
+0980:         <!-- google+ button -->.            (function() {.      
+09c0:           var po = document.createElement('script'); po.type = '
+0a00: text/javascript'; po.async = true;.                po.src = 'htt
+0a40: ps://apis.google.com/js/plusone.js';.                var s = doc
+0a80: ument.getElementsByTagName('script')[0]; s.parentNode.insertBefo
+0ac0: re(po, s);.            })();.        </script>.        .        
+0b00: ..        .            ..<link rel="stylesheet" href="https://st
+0b40: atic-fastly.hackerearth.com/static/cookie_consent/cookiebar.css?
+0b80: vrsn=1"/>..<script type="text/
+13:00:47.296000 <= Recv SSL data, 5 bytes (0x5)
+0000: .....
+13:00:47.296000 <= Recv data, 2671 bytes (0xa6f)
+0000: javascript" src="https://static-fastly.hackerearth.com/static/co
+0040: okie_consent/cookiebar.js?vrsn=1" crossorigin="anonymous" ></scr
+0080: ipt>...        ..        .            .        ..        .      
+00c0:       <!-- Hackerearth Zendesk Widget -->.....<link rel="stylesh
+0100: eet" href="https://static-fastly.hackerearth.com/static/base/cus
+0140: tomer-support-widget.css?vrsn=3"/>..<script>.    var isRecruiter
+0180: Dashboard = false;.    var zESettingsRecruiterDashboard = {.    
+01c0:     webWidget: {.            launcher: {.                label: 
+0200: {.                    "en-US": "",.                    "*": "",.
+0240:                 }.            },.            offset: {.         
+0280:        horizontal: "-100px", /* To hide actual launcher widget *
+02c0: /.                vertical: "70px".            },.            po
+0300: sition: {.                horizontal: 'right',.                v
+0340: ertical: 'top'.            }.        }.    };..    var zESetting
+0380: sDefault = {.        webWidget: {.            launcher: {.      
+03c0:           label: {.                    "en-US": "",.            
+0400:         "*": "",.                }.            },.            of
+0440: fset: {.                horizontal: "-100px", /* To hide actual 
+0480: launcher widget */.            }.        }.    };.    if(isRecru
+04c0: iterDashboard) {.       window.zESettings = zESettingsRecruiterD
+0500: ashboard;.    } else {.        window.zESettings = zESettingsDef
+0540: ault;.    }.    /*<![CDATA[*/window.zEmbed||function(e,t){var n,
+0580: o,d,i,s,a=[],r=document.createElement("iframe");window.zEmbed=fu
+05c0: nction(){a.push(arguments)},window.zE=window.zE||window.zEmbed,r
+0600: .src="javascript:false",r.title="",r.role="presentation",(r.fram
+0640: eElement||r).style.cssText="display: none",d=document.getElement
+0680: sByTagName("script"),d=d[d.length-1],d.parentNode.insertBefore(r
+06c0: ,d),i=r.contentWindow,s=i.document;try{o=s}catch(e){n=document.d
+0700: omain,r.src='javascript:var d=document.open();d.domain="'+n+'";v
+0740: oid(0);',o=s}o.open()._l=function(){var e=this.createElement("sc
+0780: ript");n&&(this.domain=n),e.id="js-iframe-async",e.src="https://
+07c0: assets.zendesk.com/embeddable_framework/main.js",this.t=+new Dat
+0800: e,this.zendeskHost="hackerearth.zendesk.com",this.zEQueue=a,this
+0840: .body.appendChild(e)},o.write('<body onload="document._l();">'),
+0880: o.close()}();.    /*]]>*/..    var ZENDESK_LOCALE = "en-US";.   
+08c0:  var USER_EMAIL = "";.    var USER_NAME = "";.    var ATTACHMENT
+0900: _LABEL = "Attachments (Optional)";.    var DESCRIPTION_LABEL = "
+0940: How can we help you, {name}?";.</script>.<script type="text/java
+0980: script" src="https://static-fastly.hackerearth.com/static/base/c
+09c0: ustomer-support-widget.js?vrsn=6" crossorigin="anonymous" defer>
+0a00: </script>...    <div class="customer-support-icon">.        <p>?
+0a40: </p>.    </div>...        .    </body>.</html>.
+13:00:47.296000 <= Recv SSL data, 5 bytes (0x5)
+0000: ....!
+13:00:47.296000 == Info: Connection #0 to host www.hackerearth.com left intact
